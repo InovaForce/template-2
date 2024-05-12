@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "image": "https://picsum.photos/536/354",
+        "time":1977,
+        "paraf":"Mehmet"
+
+    },
+    {
+        "id": 2,
+        "image": "https://picsum.photos/536/354",
+        "time":1977,
+        "paraf":"Şule"
+    },
+    {
+        "id": 3,
+        "image": "https://picsum.photos/536/354",
+        "time":1977,
+        "paraf":"Tuba"
+
+    },
+    {
+        "id": 4,
+        "image": "https://picsum.photos/536/354",
+        "time":1977,
+        "paraf":"Ela"
+    },
+    {
+        "id": 5,
+        "image": "https://picsum.photos/536/354",
+        "time":1977,
+        "paraf":"Cahit"
+    }
+
+]
