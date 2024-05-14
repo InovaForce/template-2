@@ -1,0 +1,27 @@
+
+.mySwiper{
+    content: "";
+    position: fixed;
+    background-color: rgb(0, 0, 0,0.6);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 0;
+    width: 100vw;
+    z-index: 99;
+    border-radius: 20px;
+
+    svg{
+       color: rgb(147, 180, 253);
+     
+     
+        transition: all 5s;
+        &:hover{
+            color: rgb(247, 93, 93);
+        }
+    }
+
+
+    
+}
