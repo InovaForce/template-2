@@ -1,0 +1,61 @@
+@use "../../styles/variables" as v;
+
+//yazı kalınlıkları ayarla
+
+
+.counter {
+
+background-position: center;
+background-repeat: none;
+background-size: cover;
+object-fit: cover;
+position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 30%;
+  z-index: 2;
+  background-color: #ffffff7c;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  overflow: hidden;
+
+  .counter-title {
+    position: absolute;
+    width: 100%;
+    background-color:v.$color6;
+    top: 0;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .counter-all {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    .day,
+    .hour,
+    .minute,
+    .second {
+      color: v.$color5;
+      background-color: #a7ffe5c1;
+      border-radius: 10px;
+      height: 50px;
+      width: 100px;
+      margin: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+  }
+}
