@@ -6,7 +6,7 @@ import Spacer from "./spacer";
 
 const Gallery = () => {
   
-
+//--
   
   
   return (
