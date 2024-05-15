@@ -1,0 +1,68 @@
+
+@use '/src/styles/variables' as v;
+/*About*/
+
+.about-body{
+	background-color: v.$color3;
+}
+.container{
+	background-color: v.$color3;
+}
+.about-title h2{
+	text-align: center;
+	margin-bottom: 50px;
+	padding-top: 10px;
+	font-size: 60px;
+	font-family: 'Engagement', cursive;
+	color: v.$color5;
+}
+
+.bride{
+	background-color: v.$color2;
+	box-shadow:inset;
+	opacity: 0,3px;
+}
+.about-image{
+	align-items: center;
+	text-align: center;
+}
+
+
+.about-heart{
+	color: v.$color2;
+}
+
+.about-name{
+	color: v.$color5;
+	font-family: 'Engagement', cursive;
+}
+
+.about-text{
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-main-info{
+	margin-bottom: 30px;
+}
+
+
+.card-footer{
+	align-items: center;
+	text-align: center;
+}
+	
+.card-footer a{
+	color: rgb(255, 116, 177);
+	block-size: 1rem;
+}
+.card-footer a{
+	align-items: center;
+	text-align: center;
+	line-gap-override: 1rem;
+	size: 30px;
+}
+.card-footer a:hover{
+
+	color: v.$color1;
+
+}
