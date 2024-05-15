@@ -9,7 +9,7 @@ const TimelineComponent = () => {
   const timelineRef = useRef(null);
 
   useEffect(() => {
-    function isElementInViewport(el) {
+    function isElementInViewport(el) {  
       const rect = el.getBoundingClientRect();
       return (
         rect.top >= 0 &&
