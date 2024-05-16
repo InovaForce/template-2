@@ -49,11 +49,18 @@
 .card-footer{
 	align-items: center;
 	text-align: center;
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+	
+	
 }
 	
 .card-footer a{
 	color: rgb(255, 116, 177);
 	block-size: 1rem;
+
+
 }
 .card-footer a{
 	align-items: center;
