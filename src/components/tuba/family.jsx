@@ -31,6 +31,7 @@ const Family = () => {
 				</div>
 				<div className="col-lg-4 col-md-6 col-sm-12">
 					<div className="family-image">
+						
 						<div className="family-img">
 							<img className="img-fluid" src="images/family-02.jpg" alt="" />
 						</div>
