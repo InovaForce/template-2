@@ -1,12 +1,12 @@
 
 @use '/src/styles/variables' as v;
-/*About*/
+
 
 .about-body{
-	background-color: v.$color3;
+	background-color: v.$color1;
 }
 .container{
-	background-color: v.$color3;
+	background-color: v.$color1;
 }
 .about-title h2{
 	text-align: center;
@@ -17,10 +17,10 @@
 	color: v.$color5;
 }
 
-.bride{
-	background-color: v.$color2;
-	box-shadow:inset;
-	opacity: 0,3px;
+.bride-groom{
+	background-color: v.$color1;
+	box-shadow:none;
+	opacity:1rem;
 }
 .about-image{
 	align-items: center;
@@ -39,16 +39,30 @@
 
 .about-text{
 	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: v.$color5;
 }
 
 .about-main-info{
 	margin-bottom: 30px;
 }
 
-
 .card-footer{
 	align-items: center;
 	text-align: center;
+
+	justify-content: center;
+	display: flex;
+	gap: 1.2rem;
+	size: 1rem;
+	
+	background-color:v.$color3;
+	opacity:1;
+	border-radius:100px;
+	-webkit-border-radius:100px;
+	-moz-border-radius:100px;
+	-ms-border-radius:100px;
+	-o-border-radius:100px;
+
 	display: flex;
 	gap: 1rem;
 	justify-content: center;
@@ -62,11 +76,16 @@
 
 
 }
+	
+
 .card-footer a{
+
 	align-items: center;
 	text-align: center;
-	line-gap-override: 1rem;
-	size: 30px;
+	
+	size: 10rem;
+	color: rgb(255, 116, 177);
+	
 }
 .card-footer a:hover{
 

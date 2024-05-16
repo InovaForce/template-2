@@ -16,7 +16,7 @@ const AboutUs = () => {
             <div className="col-lg-12 text-center">
               <div className="about-title">
                 <h2>
-                  Mervenur <span> & </span> Muhammed
+                Cahit Ata  <span> & </span> Ali Babuş
                        </h2>
               </div>
             </div>
@@ -25,10 +25,10 @@ const AboutUs = () => {
             <div className="col-lg-12 col-md-12 col-sm-12">
               <div className="row align-items-center about-main-info">
                 <div className="col-lg-4 col-md-6 col-sm-12">
-                  <Card className="bride">
+                  <Card className="bride-groom">
                     <CardBody className="about-image">
                       <Image
-                        src="https://picsum.photos/536/354"
+                        src="/images/about-img-01.jpg"
                         alt=""
                         width={300}
                         height={200}
@@ -52,7 +52,7 @@ const AboutUs = () => {
                   <h2 className="about-heart">
                     
                   <FaHeart />
-                    <span className="about-name"> Mervenur </span>
+                    <span className="about-name"> Cahit Ata  </span>
                     <FaHeart />
                     
                   </h2>
@@ -67,10 +67,10 @@ const AboutUs = () => {
               </div>
               <div className="row align-items-center about-main-info">
                 <div className="col-lg-4 col-md-6 col-sm-12">
-                  <Card className="bride">
+                  <Card className="bride-groom">
                     <CardBody className="about-image">
                       <Image
-                        src="https://picsum.photos/536/354"
+                        src="/images/about-img-02.jpg"
                         alt=""
                         width={300}
                         height={200}
@@ -94,7 +94,7 @@ const AboutUs = () => {
                 <div className="col-lg-8 col-md-6 col-sm-12">
                   <h2 className="about-heart">
                   <FaHeart />
-                    <span className="about-name"> Muhammed </span><FaHeart />
+                    <span className="about-name">  Ali Babuş </span><FaHeart />
                   </h2>
                   <p className="about-text">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
