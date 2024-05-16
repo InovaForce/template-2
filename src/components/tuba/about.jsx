@@ -35,8 +35,8 @@ const AboutUs = () => {
                         className="rounded img-fluid"
                       />
                     </CardBody>
-                    <CardFooter className="card-footer g-10">
-                      <a href="#">
+                    <CardFooter className=" card-footer g-10">
+                      <a  href="#">
                         <FaFacebookSquare />
                       </a>
                       <a href="#">
