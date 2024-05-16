@@ -1,0 +1,20 @@
+.mySwiper {
+  content: "";
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-top: 0;
+  width: 100vw;
+  z-index: 99;
+  border-radius: 20px;
+}
+.mySwiper svg {
+  color: rgb(147, 180, 253);
+  transition: all 5s;
+}
+.mySwiper svg:hover {
+  color: rgb(247, 93, 93);
+}/*# sourceMappingURL=swiper.css.map */
