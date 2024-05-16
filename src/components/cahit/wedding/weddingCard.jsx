@@ -4,7 +4,10 @@ import React, { useState, useRef } from "react";
 import { Card, Col } from "react-bootstrap";
 import data from "@/data/wedding.json";
 import "./wedding.scss";
-import { MdOutlineArrowDropDownCircle } from "react-icons/md";
+import {
+  MdOutlineArrowDropDownCircle,
+  MdOutlineArrowDropUp,
+} from "react-icons/md";
 
 const WeddingCard = () => {
   const [showMap, setShowMap] = useState({});
@@ -50,7 +53,13 @@ const WeddingCard = () => {
                 <Card.Title>{item.title}</Card.Title>
                 <Card.Subtitle>{item.time}</Card.Subtitle>
               </div>
-              <MdOutlineArrowDropDownCircle className="fs-2 text-danger rounded" />
+              {showMap[item.id] ? (
+                <div className="d-flex justify-content-center  align-items-center circlearr border-3 border border-danger rounded-circle">
+                  <MdOutlineArrowDropUp style={{fontSize: "22px"}} className="circlearr text-danger rounded" />
+                </div>
+              ) : (
+                <MdOutlineArrowDropDownCircle className=" fs-2 text-danger rounded" />
+              )}
             </Card.Body>
           </Card>
         </Col>

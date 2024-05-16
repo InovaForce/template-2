@@ -1,0 +1,18 @@
+/* @use '.../../../../../styles/variables' as v;
+
+.contact-box{
+    h2{
+        margin-bottom: 20px;
+    }
+
+    .input-group-text{
+        background: none;
+        color: v.$color2;
+    }
+}
+.primary {
+    background-color: v.$color4;
+    color: white;
+
+}
+ *//*# sourceMappingURL=contact.css.map */

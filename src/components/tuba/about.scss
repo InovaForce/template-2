@@ -49,6 +49,7 @@
 .card-footer{
 	align-items: center;
 	text-align: center;
+
 	justify-content: center;
 	display: flex;
 	gap: 1.2rem;
@@ -61,6 +62,19 @@
 	-moz-border-radius:100px;
 	-ms-border-radius:100px;
 	-o-border-radius:100px;
+
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+	
+	
+}
+	
+.card-footer a{
+	color: rgb(255, 116, 177);
+	block-size: 1rem;
+
+
 }
 	
 
