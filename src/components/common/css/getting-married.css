@@ -1,0 +1,15 @@
+/*COMMON*/
+/*BOOTSTRAP*/
+.getting-married-div {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 116, 177);
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+  height: 30%;
+  z-index: 2;
+}/*# sourceMappingURL=getting-married.css.map */

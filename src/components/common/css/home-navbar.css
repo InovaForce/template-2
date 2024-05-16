@@ -1,0 +1,37 @@
+/*COMMON*/
+/*BOOTSTRAP*/
+.home-navbar,
+.navbar {
+  background-color: rgb(255, 214, 236);
+  z-index: 999;
+  --bs-navbar-padding-y: 0 !important;
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+}
+.home-navbar .home-navbar-container,
+.navbar .home-navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-navbar .home-navbar-container .navbar-title,
+.navbar .home-navbar-container .navbar-title {
+  color: rgb(255, 116, 177);
+  font-size: 22px;
+}
+.home-navbar .home-nav,
+.navbar .home-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.home-navbar .home-nav > .nav-link,
+.navbar .home-nav > .nav-link {
+  color: rgb(255, 116, 177);
+  padding: 15px !important;
+  font-size: 18px;
+}
+.home-navbar .home-nav > .nav-link:hover,
+.navbar .home-nav > .nav-link:hover {
+  background-color: rgb(167, 255, 228);
+}/*# sourceMappingURL=home-navbar.css.map */

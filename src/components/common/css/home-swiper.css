@@ -1,0 +1,23 @@
+/*COMMON*/
+/*BOOTSTRAP*/
+.swiper-opacity {
+  height: 100vh;
+}
+.swiper-opacity .swiper-div {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.swiper-opacity .swiper-div .swiper-carousel {
+  height: 100%;
+}
+.swiper-opacity .swiper-div .swiper-carousel .slide-carousel {
+  width: 100%;
+  height: 100%;
+}
+.swiper-opacity .swiper-div .swiper-carousel .slide-carousel img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=home-swiper.css.map */

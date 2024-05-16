@@ -1,0 +1,57 @@
+@use '.../../../../../styles/variables' as v;
+.event-card {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    margin-bottom: 20px;
+    
+  
+    .card-body {
+      text-align: center;
+      
+
+      .event-div{
+        overflow: hidden;
+
+      }
+
+      .event-image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        
+        
+        border-top-left-radius: 0.25rem;
+        border-top-right-radius: 0.25rem;
+        transition: transform 0.9s ease; 
+       
+    
+        &:hover {
+          transform: scale(1.2) rotate(-5deg);
+          -webkit-transform: scale(1.2) rotate(-5deg);
+          -moz-transform: scale(1.2) rotate(-5deg);
+          -ms-transform: scale(1.2) rotate(-5deg);
+          -o-transform: scale(1.2) rotate(-5deg);
+  }
+      }
+    
+      .card-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin-top: 10px;
+      }
+    
+      .card-text {
+        margin-top: 10px;
+      }
+    
+      .btn-primary {
+        margin-top: 10px;
+        color: v.$color5;
+      }
+      
+
+    }
+  
+   
+  }
+  

@@ -1,0 +1,41 @@
+/*COMMON*/
+/*BOOTSTRAP*/
+.event-card {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin-bottom: 20px;
+}
+.event-card .card-body {
+  text-align: center;
+}
+.event-card .card-body .event-div {
+  overflow: hidden;
+}
+.event-card .card-body .event-image {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  transition: transform 0.9s ease;
+}
+.event-card .card-body .event-image:hover {
+  transform: scale(1.2) rotate(-5deg);
+  -webkit-transform: scale(1.2) rotate(-5deg);
+  -moz-transform: scale(1.2) rotate(-5deg);
+  -ms-transform: scale(1.2) rotate(-5deg);
+  -o-transform: scale(1.2) rotate(-5deg);
+}
+.event-card .card-body .card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.event-card .card-body .card-text {
+  margin-top: 10px;
+}
+.event-card .card-body .btn-primary {
+  margin-top: 10px;
+  color: rgb(255, 116, 177);
+}/*# sourceMappingURL=event.css.map */
