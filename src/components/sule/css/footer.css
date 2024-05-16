@@ -1,0 +1,11 @@
+/*COMMON*/
+/*BOOTSTRAP*/
+.footer-box {
+  background: rgb(255, 116, 177);
+  padding: 50px 0;
+  margin-bottom: 0;
+}
+.footer-box .footer-company-name {
+  margin: 0 auto;
+  text-align: center;
+}/*# sourceMappingURL=footer.css.map */
