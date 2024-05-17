@@ -1,19 +1,23 @@
-import React from "react";
-import "../footer/footer.scss" 
-import { Container, Row } from "react-bootstrap";
+"use client"
+import React, { useEffect } from 'react'
+import './footer.scss'
+import Modal from './footer-contact/modal'
 
 const Footer = () => {
-  return (
-    <Footer className="footer-box mb-0 ">
-      <Container>
-        <Row className="col-lg-12">
-          <p class="footer-company-name">
-            &copy; 2024 Template-2 Made By InovaForce.
-          </p>
-        </Row>
-      </Container>
-    </Footer>
-  );
-};
+  useEffect(() => {
+    const copyrightDate = document.querySelector(".copyright-date");
+    let date = new Date();
+    copyrightDate.innerText = date.getFullYear();
+  }, []); 
+  return (    
+    <footer className="footer">      
+      <span className="copyright">
+        &copy;
+        <span className="copyright-date"></span>
+        <span className="copyright-link"><Modal /></span>        
+      </span>
+    </footer>    
+  )
+}
 
-export default Footer;
+export default Footer

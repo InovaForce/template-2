@@ -1,13 +1,13 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import { Button , Card} from "react-bootstrap";
-import "./event.scss";
+import { Button , Card, Container} from "react-bootstrap";
+import "./event-card.scss";
 
 const EventCard = (props) => {
     const { image, title, text, location } = props;
   return (
-    <>
+    <Container className="event-container" >
       <Card className="event-card" >      
       <Card.Body>
       <div className="event-div">
@@ -24,7 +24,7 @@ const EventCard = (props) => {
         <Button variant="primary" as="a" href={location}>See Location</Button>
       </Card.Body>
       </Card>
-    </>
+    </Container>
     
   );
 }

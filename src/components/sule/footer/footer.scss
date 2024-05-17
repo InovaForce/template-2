@@ -1,15 +1,36 @@
-@use '.../../../../../styles/variables' as v;
+@use "../../../styles/variables" as v;
 
-.footer-box {
-    background: v.$color5;
-    padding: 50px 0;
-    margin-bottom: 0;
-
-    .footer-company-name {
-        
-        margin: 0 auto;
-        text-align: center;
-
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    background-color:v.$color3;
+    color:v.$color5;
+   // user-select: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: auto;
+  
+    .copyright {
+      display: flex;
+      font-size: 15px;
+      gap: 0.2rem;
+  
+      .copyright-link {
+        color: v.$color5;
+        font-weight: bold;
+        cursor: pointer;
+        transition: color 0.5s ease-in-out;
+        -webkit-transition: color 0.5s ease-in-out;
+        -moz-transition: color 0.5s ease-in-out;
+        -ms-transition: color 0.5s ease-in-out;
+        -o-transition: color 0.5s ease-in-out;
+  
+        &:hover {
+          color: v.$color5;
+        }
+      
+      }
     }
- 
-}
+  }
+  
