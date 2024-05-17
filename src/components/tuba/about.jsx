@@ -16,7 +16,7 @@ const AboutUs = () => {
             <div className="col-lg-12 text-center">
               <div className="about-title">
                 <h2>
-                Cahit Ata  <span> & </span> Ali Babuş
+                Mervenur  <span> & </span> Muhammed
                        </h2>
               </div>
             </div>
@@ -52,7 +52,7 @@ const AboutUs = () => {
                   <h2 className="about-heart">
                     
                   <FaHeart />
-                    <span className="about-name"> Cahit Ata  </span>
+                    <span className="about-name"> Mervenur </span>
                     <FaHeart />
                     
                   </h2>
@@ -94,7 +94,7 @@ const AboutUs = () => {
                 <div className="col-lg-8 col-md-6 col-sm-12">
                   <h2 className="about-heart">
                   <FaHeart />
-                    <span className="about-name">  Ali Babuş </span><FaHeart />
+                    <span className="about-name">  Muhammed </span><FaHeart />
                   </h2>
                   <p className="about-text">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -108,7 +108,7 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-        </div>
+      </div>
    
   );
 };
