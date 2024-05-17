@@ -1,11 +1,30 @@
 /*COMMON*/
 /*BOOTSTRAP*/
-.footer-box {
-  background: rgb(255, 116, 177);
-  padding: 50px 0;
-  margin-bottom: 0;
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  background-color: rgb(255, 214, 236);
+  color: rgb(255, 116, 177);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: auto;
 }
-.footer-box .footer-company-name {
-  margin: 0 auto;
-  text-align: center;
+.footer .copyright {
+  display: flex;
+  font-size: 15px;
+  gap: 0.2rem;
+}
+.footer .copyright .copyright-link {
+  color: rgb(255, 116, 177);
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.5s ease-in-out;
+  -webkit-transition: color 0.5s ease-in-out;
+  -moz-transition: color 0.5s ease-in-out;
+  -ms-transition: color 0.5s ease-in-out;
+  -o-transition: color 0.5s ease-in-out;
+}
+.footer .copyright .copyright-link:hover {
+  color: rgb(255, 116, 177);
 }/*# sourceMappingURL=footer.css.map */

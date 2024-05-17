@@ -1,0 +1,20 @@
+[
+    {
+        "contact": {
+            "phone1": "+1 (212) 489-4335",
+            "phone2": "+1 (212) 489-4336",
+            "email": "inovaforce@gmail.com",
+            "address": "Türkiye",
+            "website": "#",
+            "mapURL": "#",
+            "mapEmbedURL": "#",	
+            "socialMedia": {
+                "twitter": "https://twitter.com",
+                "facebook": "https://facebook.com",
+                "instagram": "https://instagram.com",
+                "linkedin": "https://linkedin.com",
+                "youtube": "https://youtube.com"
+            }
+        }
+    }
+]

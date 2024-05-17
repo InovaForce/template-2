@@ -16,7 +16,7 @@
   justify-content: center;
   top: 10px;
   left: 10px;
-  background-color: rgb(167, 255, 228);
+  background-color: rgba(167, 255, 229, 0.75);
   font-size: 2rem;
   transform: translateY(-75%);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);

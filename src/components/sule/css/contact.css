@@ -1,18 +1,32 @@
-/* @use '.../../../../../styles/variables' as v;
-
-.contact-box{
-    h2{
-        margin-bottom: 20px;
-    }
-
-    .input-group-text{
-        background: none;
-        color: v.$color2;
-    }
+/*COMMON*/
+/*BOOTSTRAP*/
+.contact-box {
+  background-color: rgb(253, 240, 240) !important;
 }
-.primary {
-    background-color: v.$color4;
-    color: white;
-
+.contact-box h2 {
+  margin-bottom: 20px;
+  color: rgb(255, 116, 177) !important;
 }
- *//*# sourceMappingURL=contact.css.map */
+.contact-box h4 {
+  color: rgb(255, 116, 177) !important;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.contact-box .input-group-text {
+  background: rgba(167, 255, 229, 0.75);
+  color: rgb(250, 248, 241);
+}
+.contact-box .input-text {
+  background: rgb(167, 255, 229) !important;
+}
+
+.btn-primary {
+  background-color: rgba(167, 255, 229, 0.75) !important;
+  color: rgb(255, 116, 177);
+  border: rgba(167, 255, 229, 0.75) 1px solid;
+}
+.btn-primary:hover {
+  color: rgb(255, 116, 177);
+  border-color: rgb(255, 116, 177);
+}/*# sourceMappingURL=contact.css.map */
