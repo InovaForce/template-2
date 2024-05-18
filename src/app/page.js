@@ -20,7 +20,7 @@ const Home = () => {
       <Family/>
     <Timeline />
     <Gallery/>
-    <Spacer/>
+    <Spacer height="40px"/>
     <Wedding/>
     <Spacer height="40px"/>
     <Event/>
