@@ -25,9 +25,7 @@ const Home = () => {
     <Event/>
     <Spacer height="40px"/>
     <Contact/>
-    <Spacer height="40px"/>
-      
-
+  
     </>
     
   );
