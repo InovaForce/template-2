@@ -17,7 +17,6 @@ const Home = () => {
     <HomePage/>
     <Spacer height="40px"/>
     <AboutUs/>
-    
       <Family/>
     <Timeline />
     <Gallery/>
@@ -30,7 +29,7 @@ const Home = () => {
     <Contact/>
   
     </>
-    
+    //merhaba
   );
 };
 
