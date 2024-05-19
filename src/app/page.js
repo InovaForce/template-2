@@ -13,14 +13,19 @@ const Home = () => {
   return (
     <>
     <HomePage/>
+    <Spacer height="40px"/>
     <AboutUs/>
+    <Spacer height="40px"/>
     <Timeline />
+    <Spacer height="40px"/>
     <Gallery/>
-    <Spacer/>
+    <Spacer height="40px"/>
     <Wedding/>
     <Spacer height="40px"/>
     <Event/>
+    <Spacer height="40px"/>
     <Contact/>
+    <Spacer height="40px"/>
       
     </>
     

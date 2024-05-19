@@ -1,25 +1,24 @@
 @use '.../../../../../styles/variables' as v;
 
-.contact-box{
-    background-color: v.$color7 !important;
-    h2{
+.container.contact-box{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: v.$font2;
+   
+    h3{ display: flex;
         margin-bottom: 20px;
+        font-family: v.$font1!important;
         color: v.$color5 !important;
     }
-    h4{
-        color: v.$color5 !important;
-        margin-bottom: 20px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .input-group-text{
-        background: v.$color2;
-        color: v.$color1;
+    .form{
+        width: 80%;
     }
     .input-text{
-        background: v.$color8 !important;
-        
+     background: v.$color8 !important;
+     
     }
 }
 .btn-primary {

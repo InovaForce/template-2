@@ -1,9 +1,17 @@
-import { Inter } from "next/font/google";
+import { Comic_Neue, Charm} from "next/font/google";
 import "@/styles/index.scss"
 import HomeNavbar from "@/components/common/navbar/home-navbar";
 import Footer from "@/components/sule/footer/footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const comicNeue = Comic_Neue({ subsets: ["latin"],
+  variable: "--font-comic",
+  weight: ["300","400", "700"],
+
+ });
+const charm = Charm({ subsets: ["latin"],
+  variable: "--font-charm",
+  weight: ["400", "700"],
+ });
 
 export const metadata = {
   title: "Inovaforce - Template-02",
@@ -12,8 +20,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
+    <html lang="en" className={`${comicNeue.variable} ${charm.variable}`}>
+      <body>
         <HomeNavbar/>
         {children}
         <Footer/>

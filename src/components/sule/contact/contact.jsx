@@ -7,24 +7,20 @@ import { Container } from 'react-bootstrap';
 import '../contact/contact.scss';
 const Contact = () => {
   return ( 
-	<Container className="contact-box" style={{ display: 'block', 
-				width: 700, 
-				padding: 30, 
-        justifyContent: 'center',
-        }}> 
-	<h4>Contact With Us</h4> 
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+	<Container className="contact-box"> 
+	<h3>Lütfen Bizimle Iletisime Gecin(LCV)</h3> 
+  <p>Katılım durumuzunuzu bildirmekciçin bizimle iletisime gecin.Teşekkürler</p>
 	<Form className="form "> 
 	<Form.Group> 
 		<Form.Control className="my-2 input-text" type="text"
-						placeholder="Enter your full name" /> 
+						placeholder="Ad-Soyad" /> 
     <Form.Control.Feedback type="invalid">
 								Invalid name
 							</Form.Control.Feedback>        
 		</Form.Group> 
 		<Form.Group>
 		<Form.Control className="my-2 input-text" type="email"
-						placeholder="Enter your email address" />
+						placeholder="E-mail Adresiniz" />
     <Form.Control.Feedback type="invalid">
 								Invalid email
 							</Form.Control.Feedback>           
@@ -32,7 +28,7 @@ const Contact = () => {
 		</Form.Group> 
     <Form.Group>    
     <Form.Select className="my-2 input-text">
-        <option value="">Number Of Guest</option>
+        <option value="">Misafir Sayısı</option>
         <option>1</option>
         <option>2</option>
         <option>3</option>
@@ -43,21 +39,21 @@ const Contact = () => {
 		</Form.Group>
     <Form.Group>
     <Form.Select className="my-2 input-text">
-        <option>I am attending</option>
-        <option>All events</option>
-        <option>Wedding Ceremony</option>  
-        <option>Reception Party</option>     
+        <option>Katılacağım</option>
+        <option>Hepsine Katılacağım</option>
+        <option>Sadece kına gecesine katılacağım</option>  
+        <option>Sadece düğüne katılacağım</option>     
       </Form.Select>
 		</Form.Group>
     <Form.Group className="mb-3" size="lg">		
 							
 							<Form.Control className="my-2 input-text"
 								as="textarea"
-								placeholder="Your message"
+								placeholder="Mesajınız"
               />
 						</Form.Group>
 		<Button variant="primary" type="submit"> 
-		Send Message 
+		Gönder 
 		</Button> 
 	</Form> 
 	</Container> 

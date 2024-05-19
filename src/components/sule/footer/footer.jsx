@@ -14,7 +14,7 @@ const Footer = () => {
       <span className="copyright">
         &copy;
         <span className="copyright-date"></span>
-        <span className="copyright-link"><Modal /></span>        
+        <span className="copyright-link">InovaForce<Modal/></span>        
       </span>
     </footer>    
   )

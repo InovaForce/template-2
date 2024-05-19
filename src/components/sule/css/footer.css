@@ -7,15 +7,21 @@
   height: 5rem;
   background-color: rgb(255, 214, 236);
   color: rgb(255, 116, 177);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-top: auto;
+  margin-bottom: 0px;
 }
 .footer .copyright {
   display: flex;
+  align-items: baseline;
   font-size: 15px;
   gap: 0.2rem;
 }
 .footer .copyright .copyright-link {
+  list-style-type: none;
   color: rgb(255, 116, 177);
   font-weight: bold;
   cursor: pointer;
