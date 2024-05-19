@@ -9,13 +9,15 @@
 	align-items: center;
 	margin-bottom: 50px;
 	padding-top: 10px;
-	font-size: 60px;
-	font-family: 'Engagement', cursive;
+	font-size: 65px;
+	font-family: v.$font1;
 	color: v.$color5;
 }
 .family-title p{
 	text-align: center;
-	color: v.$color5
+	color: v.$color5;
+	font-family: v.$font2;
+	font-size: 25px;
 }
 .family-image{
 	position: relative;
@@ -31,11 +33,13 @@
 }
 .family-img{
 	position: relative;
+	overflow: hidden;
 	border-radius: 20px;
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	-ms-border-radius: 20px;
 	-o-border-radius: 20px;
+	
 }
 .family-img::after {
     position: absolute;
@@ -83,12 +87,13 @@
 }
 
 .family-info h4{
-	font-family: 'Engagement', cursive;
+	font-family: v.$font2;
 	font-size: 24px;
 	color: v.$color1;
 }
 .family-info p{
 	margin: 0px;
+	font-family: v.$font1;
 	font-size: 18px;
 	color: v.$color1;
 }
