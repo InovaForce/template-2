@@ -15,6 +15,9 @@ const MySwiper = ({ data, setShow }) => {
         navigation={true}
         className="mySwiper"
         modules={[Pagination, Navigation]}
+        slidesPerView={1}
+        centeredSlides={false}
+        spaceBetween={0}
         style={{
           position: "fixed",
           zIndex: 99,
@@ -23,18 +26,17 @@ const MySwiper = ({ data, setShow }) => {
           margin: "auto",
         }}
       >
-        <Card>
+        <Card >
           <Card.Body>
             {data.map((item) => (
             
-              <SwiperSlide key={item.id}>
-                <div className="imgDivSwiper">
+              <SwiperSlide className="swp " key={item.id}>
+                <div className="imgDivSwiper ">
                   <RiCloseCircleFill
                     style={{
                       position: "fixed",
-                      top: 10,
-                      right: 10,
-
+                      top: 30,
+                      right: 30,
                       zIndex: 100,
                       cursor: "pointer",
                       transition: "all 0.7s",
@@ -42,7 +44,7 @@ const MySwiper = ({ data, setShow }) => {
                     }}
                     onClick={() => setShow(false)}
                   />
-                  <Image src={item.image} alt="image" fill />
+                  <Image className="swpimgc rounded-5" src={item.image} alt="image" fill  />
                 </div>
               </SwiperSlide>
              

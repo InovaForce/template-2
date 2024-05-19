@@ -1,26 +1,26 @@
 
 @use '/src/styles/variables' as v;
-/*About*/
+
 
 .about-body{
+	background-color: v.$color1;
+}
+.container{
 	background-color: v.$color3;
 }
-/* .container{
-	background-color: v.$color3;
-} */
 .about-title h2{
 	text-align: center;
 	margin-bottom: 50px;
 	padding-top: 10px;
+	font-family: v.$font1;
 	font-size: 60px;
-	font-family: 'Engagement', cursive;
 	color: v.$color5;
 }
 
-.bride{
-	background-color: v.$color2;
-	box-shadow:inset;
-	opacity: 0,3px;
+.bride-groom{
+	background-color: v.$color1;
+	box-shadow:none;
+	opacity:1rem;
 }
 .about-image{
 	align-items: center;
@@ -32,44 +32,46 @@
 	color: v.$color2;
 }
 
+
 .about-name{
 	color: v.$color5;
-	font-family: 'Engagement', cursive;
+	font-family: v.$font1;
+	font-size: 35px;
 }
 
 .about-text{
-	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: v.$color5;
+	font-family: v.$font2;
 }
 
 .about-main-info{
 	margin-bottom: 30px;
 }
 
-
 .card-footer{
 	align-items: center;
 	text-align: center;
-	display: flex;
-	gap: 1rem;
 	justify-content: center;
-	
-	
+	display: flex;
+	gap: 1.2rem;
+	font-size: 1.5rem;
+	background-color:v.$color3;
+	opacity:1;
+	border-radius:100px;
+	-webkit-border-radius:100px;
+	-moz-border-radius:100px;
+	-ms-border-radius:100px;
+	-o-border-radius:100px;	
 }
-	
-.card-footer a{
-	color: rgb(255, 116, 177);
-	block-size: 1rem;
 
-
-}
 .card-footer a{
 	align-items: center;
 	text-align: center;
-	line-gap-override: 1rem;
-	size: 30px;
+	justify-content: center;
+	size: 10rem;
+	color: rgb(255, 116, 177);
 }
+
 .card-footer a:hover{
-
-	color: v.$color1;
-
+	color: v.$color2
 }
