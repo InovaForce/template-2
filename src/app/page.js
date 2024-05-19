@@ -17,9 +17,12 @@ const Home = () => {
     <HomePage/>
     <Spacer height="40px"/>
     <AboutUs/>
-    <Timeline /> 
-    <Family/>
-    <Gallery/>  
+    
+      <Family/>
+    <Timeline />
+    <Gallery/>
+    <Spacer height="40px"/>
+
     <Wedding/>
     <Spacer height="40px"/>
     <Event/>

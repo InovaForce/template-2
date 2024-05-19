@@ -6,7 +6,7 @@ import Spacer from "../galerry/spacer";
 const Wedding = () => {
   return (
     <div className="wedding">
-      <Container >
+      <Container className="bg-white">
       <h2 className="text-warning text-center">WEDDING</h2>
       <h6 className="text-dark text-center">Our upcoming Weddings</h6>
       <Spacer height="40px"/>
