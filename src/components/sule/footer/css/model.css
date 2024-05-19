@@ -1,3 +1,5 @@
+/*COMMON*/
+/*BOOTSTRAP*/
 .modal-style .modal-active {
   overflow: hidden;
 }
@@ -40,10 +42,10 @@
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 .modal-style #modal-container .modal h2 {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 25px;
   margin-bottom: 15px;
-  color: #1c2128;
+  color: black;
 }
 .modal-style #modal-container .modal ul li {
   font-size: 18px;

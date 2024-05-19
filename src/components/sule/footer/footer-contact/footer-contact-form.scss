@@ -1,0 +1,23 @@
+@use '../../../../styles/variables' as v;
+
+.footer-contact-box{
+    h2{
+        margin-bottom: 20px;
+    }
+
+    .input-group-text{
+        background: none;
+        color: v.$color2;
+    }
+}
+.btn-primary {
+    background-color: v.$color3;
+    margin-top: 10px;
+    color: v.$color5;
+    border-color: v.$color3;
+    
+    &:hover {
+      border-color: v.$color5;
+    }
+  }
+  

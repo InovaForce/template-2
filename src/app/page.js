@@ -17,17 +17,16 @@ const Home = () => {
     <HomePage/>
     <Spacer height="40px"/>
     <AboutUs/>
-    <Family/>
     <Timeline />
-    <Gallery/>
     <Spacer height="40px"/>
-
+    <Gallery/>
+    <Spacer/>
     <Wedding/>
     <Spacer height="40px"/>
     <Event/>
     <Spacer height="40px"/>
     <Contact/>
-  
+      
     </>
     //merhaba
   );

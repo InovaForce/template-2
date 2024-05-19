@@ -1,13 +1,16 @@
 @use '.../../../../../styles/variables' as v;
-.eventbox-container{    
+.eventbox-container.container{
+    width: 100%!important;    
     background: v.$color7;
+    font-family: v.$font2;
     .event-box{
-        padding: 70px 0px;;
+       padding: 40px 0px;;
         .title-box{
             h1{
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                font-family: v.$font1;
                 font-size: 3rem;
                 color: v.$color5;
                 margin-bottom: 30px;

@@ -14,17 +14,17 @@
   align-items: center;
 }
 .contact-box .input-group-text {
-  background: rgba(167, 255, 229, 0.75);
+  background: rgba(198, 248, 233, 0.956);
   color: rgb(250, 248, 241);
 }
 .contact-box .input-text {
-  background: rgb(167, 255, 229) !important;
+  background: rgba(180, 252, 230, 0.932) !important;
 }
 
 .btn-primary {
-  background-color: rgba(167, 255, 229, 0.75) !important;
+  background-color: rgba(198, 248, 233, 0.956) !important;
   color: rgb(255, 116, 177);
-  border: rgba(167, 255, 229, 0.75) 1px solid;
+  border: rgba(198, 248, 233, 0.956) 1px solid;
 }
 .btn-primary:hover {
   color: rgb(255, 116, 177);

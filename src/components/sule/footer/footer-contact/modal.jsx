@@ -1,35 +1,39 @@
 "use client";
 import { useState } from "react";
-import "./model.scss";
+import "./modal.scss"; 
 import { Button } from "react-bootstrap";
 import ModalContact from "./modal-contact";
-
+import FooterContactForm from "./footer-contact-form";
 
 const Modal = () => {
   const [modalActive, setModalActive] = useState(false);
+  console.log(modalActive)
 
   const handleModalClick = () => {
     setModalActive(!modalActive);
   };
 
+  const handleModalContentClick = (e) => {
+    e.stopPropagation();
+  };
+
   return (
-    <div>
-      <Button className="footer-link" variant="none" onClick={handleModalClick}>
-        InovaForce
+    <div className={`modal-container ${modalActive ? "one" : ""}`}>
+      <Button
+        className="copyright-link  "
+        variant=""      
+        onClick={handleModalClick}
+      >
       </Button>
       {modalActive && (
         <div
-          id="modal-container"
-          className={`modal-background ${modalActive ? "one" : ""}`}
+          className="modal-background"
           onClick={handleModalClick}
         >
-          <div id="modal-container" className="one out">
-            <div className="modal-background">
-              <div className="modal">
-                <h2>Contact US</h2>                 
-                 <ModalContact />
-              </div>
-            </div>
+          <div className="modal" onClick={handleModalContentClick}>
+            <h2>Contact Us</h2>
+            <FooterContactForm />
+            <ModalContact /> 
           </div>
         </div>
       )}
