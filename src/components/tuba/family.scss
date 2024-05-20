@@ -7,9 +7,8 @@
 .family-title h2{
 	text-align: center;
 	align-items: center;
-	margin-bottom: 50px;
-	padding-top: 10px;
-	font-size: 65px;
+	padding-top: 80px;
+	font-size: 3rem;
 	font-family: v.$font1;
 	color: v.$color5;
 }
@@ -17,11 +16,10 @@
 	text-align: center;
 	color: v.$color5;
 	font-family: v.$font2;
-	font-size: 25px;
+	font-size: 20px;
 }
 .family-image{
 	position: relative;
-	margin-top: 30px;
 	border: 10px solid #fff;
 	box-shadow: 0 2px 5px rgb(255, 214, 236);
 	border-radius: 20px;
@@ -29,7 +27,6 @@
 	-moz-border-radius: 20px;
 	-ms-border-radius: 20px;
 	-o-border-radius: 20px;
-	
 }
 .family-img{
 	position: relative;
