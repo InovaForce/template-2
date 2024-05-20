@@ -21,7 +21,7 @@ const CardComp = () => {
 
       {data.map((item) => (
         <Col className="text-center mx-auto" key={item.id}>
-          <div className="img-container" onClick={toggleSwiper}>
+          <div className="img-container mx-auto" onClick={toggleSwiper}>
             <Image
               src={item.image}
               alt="image"

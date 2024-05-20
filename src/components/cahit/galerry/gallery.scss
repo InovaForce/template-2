@@ -1,12 +1,14 @@
 @use "../../../styles/variables" as v;
 
+.gallery {
+  background-color: v.$color7;
+  font-family: v.$font1;
+  padding-top: 40px;
 
-.gallery{
-background-color: v.$color7;
-font-family: v.$font1;
-
-> h6{
-  font-family: v.$font2;
-
-}
+  > h6 {
+    font-family: v.$font2;
+  }
+  h2 {
+    color: v.$color5;
+  }
 }
