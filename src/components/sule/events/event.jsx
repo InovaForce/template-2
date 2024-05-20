@@ -7,6 +7,8 @@ import "../events/event.scss";
 
 const Event = () => {
   return (
+  
+    <div className="event-all">
     <Container className="eventbox-container">
     <div className="event-box">
       <Row className="col-12">
@@ -23,6 +25,7 @@ const Event = () => {
 		</Row>      
     </div>
     </Container>
+    </div>
   );
 };
 

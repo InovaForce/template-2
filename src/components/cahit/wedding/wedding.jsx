@@ -8,7 +8,7 @@ const Wedding = () => {
     <div className="wedding">
       <Container className="bg-white">
       <h2 className="text-warning text-center">WEDDING</h2>
-      <h6 className="text-dark text-center">Our upcoming Weddings</h6>
+      <h6 className="text-dark text-center wedding-our">Our upcoming Weddings</h6>
       <Spacer height="40px"/>
         <Row  sm={1} md={2} lg={3} className="g-4">
           <WeddingCard />

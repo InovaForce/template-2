@@ -15,6 +15,7 @@ const initValues = {
 const initState = { loading: false, error: "", values: initValues };
 const Contact = () => {
   return (
+    <div className="contact-div">
     <Container className="contact-box">
       <h2>Contact With Us</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -82,6 +83,7 @@ const Contact = () => {
       </Button>
       </Form>
     </Container>
+    </div>
   );
 };
 

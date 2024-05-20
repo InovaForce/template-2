@@ -1,9 +1,22 @@
+@use "../../../styles/variables" as v;
+ 
+.wedding{
+
+  font-family: v.$font1;
+  background-color: v.$color1;
+  
+  .wedding-our{
+  font-family: v.$font2;
+
+  }
+
+
 .wedding-card {
   cursor: pointer;
   overflow: hidden;
   user-select: none;
   transition: all 0.3s ease;
-
+  font-family: v.$font2;
 
   &:hover {
     .card-image {
@@ -45,3 +58,4 @@
     height: auto;
   }
 }
+} 

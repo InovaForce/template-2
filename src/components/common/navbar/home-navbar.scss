@@ -8,17 +8,17 @@
   display: flex;
   justify-content: space-between !important;
   align-items: center;
+  font-family: v.$font2;
+
 
   .home-navbar-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    .navbar-nav .nav-link.active{
-      color: v.$color9 !important;
-      background-color: v.$color2;
-
-
+    .navbar-nav .nav-link.active {
+      color: v.$color5 !important;
+      background-color: none !important;
     }
 
     .navbar-title {
@@ -30,12 +30,11 @@
     display: flex;
     justify-content: space-between;
 
-  
-
     > .nav-link {
       color: v.$color5;
-      padding: 15px !important;
+      padding: 20px !important;
       font-size: 18px;
+
 
       &:hover {
         background-color: v.$color2;

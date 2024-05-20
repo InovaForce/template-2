@@ -36,15 +36,6 @@ const HomeSwiper = () => {
               alt="Wedding 8"
             />
           </SwiperSlide>
-          <SwiperSlide className="slide-carousel">
-            <Image
-              src="/images/wedding-2.jpg"
-              width={1800}
-              height={800}
-              alt="Wedding 2
-              "
-            />
-          </SwiperSlide>
        
           <SwiperSlide className="slide-carousel">
             <Image
