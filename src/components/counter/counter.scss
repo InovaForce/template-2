@@ -35,6 +35,9 @@ position: absolute;
     align-items: center;
     justify-content: center;
     color: v.$color9;
+    font-weight: 700;
+    font-size: large;
+
   }
 
   .counter-all {
@@ -56,6 +59,7 @@ position: absolute;
       display: flex;
       justify-content: center;
       align-items: center;
+      font-weight: 700;
 
     }
   }
