@@ -2,11 +2,13 @@
 
 .event-all{
     background: v.$color7;
+    height: 100%;
+    padding: 40px 0px 30px 0px;
 
 
 .eventbox-container{
     margin-top: 20px;
-    width: 500vh!important;    
+    width: 100%;    
     font-family: v.$font2;
     .event-box{
        padding: 40px 0px;;
