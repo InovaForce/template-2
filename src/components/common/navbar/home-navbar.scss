@@ -14,6 +14,13 @@
     justify-content: space-between;
     align-items: center;
 
+    .navbar-nav .nav-link.active{
+      color: v.$color9 !important;
+      background-color: v.$color2;
+
+
+    }
+
     .navbar-title {
       color: v.$color5;
       font-size: 22px;
@@ -22,6 +29,8 @@
   .home-nav {
     display: flex;
     justify-content: space-between;
+
+  
 
     > .nav-link {
       color: v.$color5;
