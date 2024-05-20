@@ -7,16 +7,15 @@ import Image from "next/image";
 import Counter from "@/components/counter/counter";
 import GettingMarried from "./getting-married";
 
-// core version + navigation, pagination modules:
-import { Navigation, Pagination } from 'swiper/modules';
-// import Swiper and modules styles
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+// Core version + pagination, autoplay modules:
+import { Pagination, Autoplay } from "swiper/modules";
 
-//importlara bak-swiper
+// Import Swiper and modules styles
+import "swiper/css/pagination";
+import "swiper/css/autoplay"; // Import autoplay styles if needed
+
 const HomeSwiper = () => {
   return (
-    <div className="swiper-opacity">
       <div className="swiper-div">
         <Swiper
           className="swiper-carousel"
@@ -25,31 +24,42 @@ const HomeSwiper = () => {
           onSlideChange={() => console.log("slide change")}
           onSwiper={(swiper) => console.log(swiper)}
           loop={true}
-          autoplay={{ delay: 1000 }}
+          autoplay={{ delay: 3000 }} // Set delay to 3000 ms (3 seconds) for demonstration
+          modules={[Pagination, Autoplay]} // Remove Navigation from modules
+          pagination={{ clickable: true }}
         >
           <SwiperSlide className="slide-carousel">
-            <Image src="/images/wedding-8.jpg" width={1800} height={800} />
+            <Image
+              src="/images/wedding-8.jpg"
+              width={1800}
+              height={800}
+              alt="Wedding 8"
+            />
           </SwiperSlide>
           <SwiperSlide className="slide-carousel">
-            <Image src="/images/wedding-2.jpg" width={1800} height={800} />
+            <Image
+              src="/images/wedding-2.jpg"
+              width={1800}
+              height={800}
+              alt="Wedding 2
+              "
+            />
           </SwiperSlide>
+       
           <SwiperSlide className="slide-carousel">
-            <Image src="/images/wedding-3.jpg" width={1800} height={800} />
+            <Image
+              src="/images/wedding-4.jpg"
+              width={1800}
+              height={800}
+              alt="Wedding 4"
+            />
           </SwiperSlide>
-          <SwiperSlide className="slide-carousel">
-            <Image src="/images/wedding-4.jpg" width={1800} height={800} />
-          </SwiperSlide>
-          <SwiperSlide className="slide-carousel">
-            <Image src="/images/wedding-5.jpg" width={1800} height={800} />
-          </SwiperSlide>
-          <SwiperSlide className="slide-carousel">
-            <Image src="/images/wedding-6.jpg" width={1800} height={800} />
-          </SwiperSlide>
+    
+  
         </Swiper>
         <Counter />
         <GettingMarried />
       </div>
-    </div>
   );
 };
 

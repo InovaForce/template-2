@@ -1,7 +1,6 @@
 @use "../../../styles/variables" as v;
 
-.swiper-opacity{
-height: 100vh;
+
 
     .swiper-div{
         height: 100vh;
@@ -16,10 +15,11 @@ height: 100vh;
                     height: 100%;
                     width: 100%;
                     object-fit: cover;
+                    filter: brightness(80%);
                 }
            }
         }
     }
 
-}
+
 
