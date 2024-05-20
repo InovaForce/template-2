@@ -2,8 +2,14 @@
  
 .wedding{
 
+  h2 {
+    color: v.$color5;
+  }
+
   font-family: v.$font1;
   background-color: v.$color1;
+  padding-bottom: 50px;
+  padding-top: 80px;
   
   .wedding-our{
   font-family: v.$font2;
