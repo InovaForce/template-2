@@ -10,7 +10,7 @@ const Family = () => {
         <Row>
           <Col lg={12}>
             <div className="family-title">
-              <h2>Family</h2>
+              <h2>FAMILY</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
           </Col>
