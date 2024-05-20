@@ -7,6 +7,7 @@ import "./event-card.scss";
 const EventCard = (props) => {
     const { image, title, text, location } = props;
   return (
+    
     <Container className="event-container" >
       <Card className="event-card" >      
       <Card.Body>

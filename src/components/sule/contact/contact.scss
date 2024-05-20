@@ -1,5 +1,10 @@
 @use '.../../../../../styles/variables' as v;
 
+
+.contact-div{
+
+    background-color: v.$color1;
+
 .container.contact-box{
     display: flex;
     flex-direction:column;    
@@ -7,7 +12,6 @@
     justify-content: center;
     align-items: center;
     font-family: v.$font2;
-    background-color: v.$color1;
     
 
    
@@ -36,4 +40,5 @@
     border-color: v.$color5;
    
     }
+}
 }

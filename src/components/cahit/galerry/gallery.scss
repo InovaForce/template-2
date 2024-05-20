@@ -1,5 +1,12 @@
+@use "../../../styles/variables" as v;
 
 
 .gallery{
-background-color: white;
+background-color: v.$color7;
+font-family: v.$font1;
+
+> h6{
+  font-family: v.$font2;
+
+}
 }

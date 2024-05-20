@@ -1,8 +1,12 @@
 @use '.../../../../../styles/variables' as v;
+
+.event-all{
+    background: v.$color7;
+
+
 .eventbox-container{
     margin-top: 20px;
     width: 500vh!important;    
-    background: v.$color7;
     font-family: v.$font2;
     .event-box{
        padding: 40px 0px;;
@@ -18,4 +22,5 @@
             }
         }
     }
+}
 }
