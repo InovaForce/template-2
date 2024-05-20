@@ -22,9 +22,7 @@ const Home = () => {
     <Gallery/>
     <Spacer/>
     <Wedding/>
-    <Spacer height="40px"/>
-    <Event/>
-    <Spacer height="40px"/>
+    <Event/>    
     <Contact/>
       
     </>

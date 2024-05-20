@@ -12,7 +12,7 @@ const FooterContactForm = () => {
       
     >
       <h4>Contact Us</h4>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
       <Form className="form ">
         <Form.Group>
           <Form.Control

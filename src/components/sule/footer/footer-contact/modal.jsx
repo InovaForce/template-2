@@ -7,7 +7,6 @@ import FooterContactForm from "./footer-contact-form";
 
 const Modal = () => {
   const [modalActive, setModalActive] = useState(false);
-  console.log(modalActive)
 
   const handleModalClick = () => {
     setModalActive(!modalActive);
@@ -18,12 +17,13 @@ const Modal = () => {
   };
 
   return (
-    <div className={`modal-container ${modalActive ? "one" : ""}`}>
+    <div className={`modal-container ${modalActive ? "active" : ""}`}>
       <Button
-        className="copyright-link  "
-        variant=""      
+        className="copyright-link"
+        variant="primary"      
         onClick={handleModalClick}
       >
+        Open Modal
       </Button>
       {modalActive && (
         <div

@@ -19,6 +19,23 @@
       font-size: 18px;
       gap: 0.3rem;
     }
+    .copyright-link {
+      display: inline-block;
+      text-align: center;
+      font-size: 18px;
+      border-radius: 3px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: color 0.5s ease-in-out;
+      -webkit-transition: color 0.5s ease-in-out;
+      -moz-transition: color 0.5s ease-in-out;
+      -ms-transition: color 0.5s ease-in-out;
+      -o-transition: color 0.5s ease-in-out;
+  
+      &:hover {
+        text-decoration-line: underline;
+        -moz-text-decoration-line: underline;
+      }
     
   }
-  
+}

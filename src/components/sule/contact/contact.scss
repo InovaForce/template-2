@@ -2,19 +2,24 @@
 
 .container.contact-box{
     display: flex;
-    flex-direction:column;
+    flex-direction:column;    
     width: 100%;
     justify-content: center;
     align-items: center;
     font-family: v.$font2;
+    background-color: v.$color1;
+    
+
    
-    h3{ display: flex;
+    h2{ display: flex;
+        margin-top: 30px;
         margin-bottom: 20px;
         font-family: v.$font1!important;
         color: v.$color5 !important;
     }
     .form{
-        width: 80%;
+        width: 85%;
+        margin-bottom: 30px;
     }
     .input-text{
      background: v.$color8 !important;
@@ -22,11 +27,13 @@
     }
 }
 .btn-primary {
-    background-color: v.$color2 !important;
+    width: 100%;
+    background-color: v.$color8!important;
     color:v.$color5;
-    border: v.$color2 1px solid;   
+    border: v.$color2 1px solid; ;  
     &:hover {
     color: v.$color5;
     border-color: v.$color5;
+   
     }
 }

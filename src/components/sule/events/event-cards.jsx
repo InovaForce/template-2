@@ -12,7 +12,7 @@ const EventCard = (props) => {
       <Card.Body>
       <div className="event-div">
       <Image
-					src={`/images/events/${image}`}
+					src={`/images/${image}`}
 					width={300}
 					height={200}
 					alt="invitation photo"

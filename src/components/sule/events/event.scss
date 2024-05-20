@@ -1,6 +1,7 @@
 @use '.../../../../../styles/variables' as v;
-.eventbox-container.container{
-    width: 100%!important;    
+.eventbox-container{
+    margin-top: 20px;
+    width: 500vh!important;    
     background: v.$color7;
     font-family: v.$font2;
     .event-box{

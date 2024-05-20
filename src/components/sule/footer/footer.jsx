@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect } from 'react'
 import './footer.scss'
-import Modal from './footer-contact/modal'
+import Modal from '../footer/footer-contact/modal'
 
 const Footer = () => {
   useEffect(() => {
