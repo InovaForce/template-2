@@ -53,6 +53,7 @@ const Contact = () => {
   };
   return (
     <div className="contact-div">
+
       <Container className="contact-box">
         <h2>Contact With Us</h2>
         {error && <p>{error}</p>}
@@ -171,6 +172,7 @@ const Contact = () => {
           </Button>
         </Form>
       </Container>
+
     </div>
   );
 };
