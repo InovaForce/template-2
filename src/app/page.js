@@ -12,26 +12,29 @@ import AboutUs from "@/components/tuba/about";
 const Home = () => {
   return (
     <>
-      <HomePage/>
+      <HomePage />
       <section id="about">
-        <AboutUs/>
+        <AboutUs />
       </section>
-      <section id="family">
-        <Family/>
-        </section>
+      <section id="timeline">
         <Timeline />
-   
+      </section>
+
+      <section id="family">
+        <Family />
+      </section>
+
       <section id="gallery">
-        <Gallery/>
+        <Gallery />
       </section>
       <section id="wedding">
-        <Wedding/>
+        <Wedding />
       </section>
       <section id="events">
-        <Event/>    
+        <Event />
       </section>
       <section id="contact">
-        <Contact/>
+        <Contact />
       </section>
     </>
   );
