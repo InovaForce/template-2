@@ -8,6 +8,7 @@ import Family from "@/components/tuba/family";
 import Event from "@/components/sule/events/event";
 import Contact from "@/components/sule/contact/contact";
 import AboutUs from "@/components/tuba/about";
+import UpButton from "@/components/mehmet/up-button";
 
 const Home = () => {
   return (
@@ -36,6 +37,7 @@ const Home = () => {
       <section id="contact">
         <Contact />
       </section>
+      
     </>
   );
 };
