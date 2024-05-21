@@ -16,7 +16,7 @@ const AboutUs = () => {
             <div className="col-lg-12 text-center">
               <div className="about-title">
                 <h2>
-                Mervenur  <span> & </span> Muhammed
+                MERVENUR  <span> & </span> MUHAMMED
                        </h2>
               </div>
             </div>
@@ -30,8 +30,8 @@ const AboutUs = () => {
                       <Image
                         src="/images/about-img-01.jpg"
                         alt=""
-                        width={300}
-                        height={200}
+                        width={450}
+                        height={250}
                         className="rounded img-fluid"
                       />
                     </CardBody>
@@ -72,8 +72,8 @@ const AboutUs = () => {
                       <Image
                         src="/images/about-img-02.jpg"
                         alt=""
-                        width={300}
-                        height={200}
+                        width={450}
+                        height={250}
                         className="rounded img-fluid"
                       />
                     </CardBody>

@@ -17,8 +17,10 @@ const Home = () => {
         <AboutUs/>
       </section>
       <section id="family">
+        <Family/>
+        </section>
         <Timeline />
-      </section>
+   
       <section id="gallery">
         <Gallery/>
       </section>
