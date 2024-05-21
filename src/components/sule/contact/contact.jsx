@@ -17,7 +17,7 @@ const Contact = () => {
   return (
     <div className="contact-div">
     <Container className="contact-box">
-      <h2>Contact With Us</h2>
+      <h1>Contact With Us</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       <Form className="form ">
         <Row>

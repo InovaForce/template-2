@@ -20,7 +20,7 @@ const Modal = () => {
     <div className={`modal-container ${modalActive ? "active" : ""}`}>
       <Button
         className="copyright-link"
-        variant="primary"      
+        variant="primary"
         onClick={handleModalClick}
       >
         Open Modal
@@ -33,7 +33,7 @@ const Modal = () => {
           <div className="modal" onClick={handleModalContentClick}>
             <h2>Contact Us</h2>
             <FooterContactForm />
-            <ModalContact /> 
+            <ModalContact />
           </div>
         </div>
       )}
