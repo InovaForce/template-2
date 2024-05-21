@@ -5,8 +5,21 @@ const formatTimeUnit = (unit) => {
   return unit < 10 ? `0${unit}` : unit;
 };
 
-const calculateTimeLeft = () => {
-  const difference = +new Date("2024-12-31") - +new Date();
+
+const getTimeFromServer = () => {
+  return new Promise((resolve, reject) => {
+    fetch('https://worldtimeapi.org/api/timezone/Europe/Istanbul')
+      .then(response => response.json())
+      .then(data => {
+        const serverTime = new Date(data.datetime);
+        resolve(serverTime);
+      })
+      .catch(error => reject(error));
+  });
+};
+
+const calculateTimeLeft = (currentTime) => {
+  const difference = +new Date("2024-12-31") - +currentTime;
   let timeLeft = {};
 
   if (difference > 0) {
@@ -27,15 +40,23 @@ const calculateTimeLeft = () => {
 };
 
 const Counter = () => {
-  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+  const [timeLeft, setTimeLeft] = useState({});
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setTimeLeft(calculateTimeLeft());
-    }, 1000);
+    const fetchTime = async () => {
+      try {
+        const serverTime = await getTimeFromServer();
+        setTimeLeft(calculateTimeLeft(serverTime));
+      } catch (error) {
+        console.error('Error fetching time from server:', error);
+      }
+    };
 
-    return () => clearTimeout(timer);
-  }, [timeLeft]);
+    fetchTime(); 
+    const timer = setInterval(fetchTime, 1000);
+    return () => clearInterval(timer); 
+
+  }, []);
 
   return (
     <div className='counter'>
