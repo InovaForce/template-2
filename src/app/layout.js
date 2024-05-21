@@ -2,6 +2,7 @@ import { Comic_Neue, Charm} from "next/font/google";
 import "@/styles/index.scss"
 import HomeNavbar from "@/components/common/navbar/home-navbar";
 import Footer from "@/components/sule/footer/footer";
+import UpButton from "@/components/mehmet/up-button";
 
 
 const comicNeue = Comic_Neue({ subsets: ["latin"],
@@ -25,7 +26,7 @@ export default function RootLayout({ children }) {
         <HomeNavbar/>
         {children}
         <Footer/>
-       
+        <UpButton/>
         </body>
     </html>
   );

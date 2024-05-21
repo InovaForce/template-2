@@ -5,7 +5,7 @@ const Intro = () => {
   return (
     <section className="intro">
       <div className="container">
-        <h1>Miraç Kandili &darr;</h1>
+        <h1>Our Story &darr;</h1>
       </div>
     </section>
   );
