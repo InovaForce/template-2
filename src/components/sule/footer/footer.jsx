@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react'
 import './footer.scss'
 import Modal from '../footer/footer-contact/modal'
-import MusicPlayer from './background-player/music-player'
+import MusicPlayer from '../footer/music-player/music-player'
 
 const Footer = () => {
   useEffect(() => {
