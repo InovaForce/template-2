@@ -13,6 +13,7 @@ import { Pagination, Autoplay } from "swiper/modules";
 // Import Swiper and modules styles
 import "swiper/css/pagination";
 import "swiper/css/autoplay"; // Import autoplay styles if needed
+import Adress from "./adress";
 
 const HomeSwiper = () => {
   return (
@@ -45,11 +46,12 @@ const HomeSwiper = () => {
               alt="Wedding 4"
             />
           </SwiperSlide>
-    
+          <Counter />
+        <GettingMarried />
+          <Adress/>
   
         </Swiper>
-        <Counter />
-        <GettingMarried />
+      
       </div>
   );
 };
