@@ -16,7 +16,7 @@ const Event = () => {
           <h1>Events</h1>
         </div>
       </Row>
-      <Row sm={1} md={2} lg={3} className="g-2">
+      <Row xs={1}  md={2} lg={3} className="g-2">
       {events.map((event) => (
 				<Col key={event.id}>
 					<EventCard {...event} />

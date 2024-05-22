@@ -1,28 +1,28 @@
 [
   {
     "id": 1,
-    "image": "https://images.pexels.com/photos/2959192/pexels-photo-2959192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "image": "/images/wedding/wedding1.jpg",
     "title": "Bachelor Party",
     "time": "June 14 2022 07:30pm",
     "parag": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur, deleniti eaque excepturi."
   },
   {
     "id": 2,
-    "image": "https://images.pexels.com/photos/2959192/pexels-photo-2959192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "image": "/images/wedding/wedding2.jpg",    
     "title": "Bachelor Party",
     "time": "June 14 2022 07:30pm",
     "parag": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur, deleniti eaque excepturi."
   },
   {
     "id": 3,
-    "image": "https://images.pexels.com/photos/2959192/pexels-photo-2959192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "title": "Bachelor Party",
+    "image": "/images/wedding/wedding-day.jpg",     
+     "title": "Bachelor Party",
     "time": "June 14 2022 07:30pm",
     "parag": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur, deleniti eaque excepturi."
   }, {
     "id": 4,
-    "image": "https://images.pexels.com/photos/2959192/pexels-photo-2959192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "title": "Bachelor Party",
+    "image": "/images/wedding/party1.jpg",       
+      "title": "Bachelor Party",
     "time": "June 14 2022 07:30pm",
     "parag": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur, deleniti eaque excepturi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur, deleniti eaque excepturi."
   }

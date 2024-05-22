@@ -48,9 +48,9 @@ const AboutUs = () => {
                     </CardFooter>
                   </Card>
                 </div>
-                <div className="col-lg-8 col-md-6 col-sm-12">
+                <div className="xscouple col-lg-8 col-md-6 col-sm-12 text-center mt-sm-3">
                   <h2 className="about-heart">
-                    
+                  
                   <FaHeart />
                     <span className="about-name"> Mervenur </span>
                     <FaHeart />
@@ -65,7 +65,7 @@ const AboutUs = () => {
                   </p>
                 </div>
               </div>
-              <div className="row align-items-center about-main-info">
+              <div className="row align-items-center about-main-info text-center mt-sm-3">
                 <div className="col-lg-4 col-md-6 col-sm-12">
                   <Card className="bride-groom">
                     <CardBody className="about-image">
@@ -91,7 +91,7 @@ const AboutUs = () => {
                   </Card>
                 </div>
 
-                <div className="col-lg-8 col-md-6 col-sm-12">
+                <div className="xscouple col-lg-8 col-md-6 col-sm-12">
                   <h2 className="about-heart">
                   <FaHeart />
                     <span className="about-name">  Muhammed </span><FaHeart />

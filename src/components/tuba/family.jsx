@@ -7,7 +7,7 @@ const Family = () => {
   return (
     <div className="family-body">
       <Container>
-        <Row>
+        <Row >
           <Col lg={12}>
             <div className="family-title">
               <h2>FAMILY</h2>

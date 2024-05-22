@@ -73,3 +73,10 @@
 .card-footer a:hover{
 	color: v.$color2
 }
+
+@media(max-width: 768px){
+	.xscouple{
+		margin-top: 20px !important;
+		text-align: center !important;
+	}
+}
