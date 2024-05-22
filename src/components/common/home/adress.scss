@@ -1,0 +1,46 @@
+@use "../../../styles/variables" as v;
+
+.adress{
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, 130%);
+  height: 30%;
+  z-index: 2;
+  text-align: center;
+  margin-top: 50px;
+  color:v.$color9 ;
+
+ .adress-map{
+    position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  display: none;
+  
+ }
+
+ &:hover{
+  .adress-map{
+    display: block;
+   }
+ }
+
+  .adress-h{
+
+    font-weight: bolder;
+  }
+
+  .adress-p{
+
+    font-weight: 500;
+    font-size: 20px;
+
+  }
+}
