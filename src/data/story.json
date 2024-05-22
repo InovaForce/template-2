@@ -1,0 +1,48 @@
+
+[
+    {
+        "id": 1,
+        "image": "images/our-story/gallery-1.jpg",
+        "time":1977,
+        "paraf":"ilk buluşma"
+
+    },
+    {
+        "id": 2,
+        "image": "images/our-story/gallery-4.jpg",
+        "time":1977,
+        "paraf":"ilk buluşma"
+    },
+    {
+        "id": 3,
+        "image": "images/our-story/gallery-5.jpg",
+        "time":1977,
+        "paraf":"ilk buluşma"
+
+    },
+    {
+        "id": 4,
+        "image": "images/our-story/couple.jpg",
+        "time":1977,
+        "paraf":"ilk buluşma"
+    },
+    {
+        "id": 5,
+        "image": "images/our-story/love.jpg",
+        "time":1977,
+        "paraf":"ilk buluşma"
+    },
+    {
+        "id": 6,
+        "image": "images/our-story/people.jpg",
+        "time":1977,
+        "paraf":"ilk buluşma"
+    },
+    {
+        "id": 7,
+        "image": "images/our-story/balayi.jpg",
+        "time":1977,
+        "paraf":"Ceylan"
+    }
+
+]
