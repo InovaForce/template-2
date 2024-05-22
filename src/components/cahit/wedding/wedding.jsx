@@ -7,9 +7,8 @@ const Wedding = () => {
   return (
     <div className="wedding">
       <Container >
-      <h1 className=" text-center">WEDDING</h1>
-      <h6 className="text-dark text-center wedding-our mb-5">Our upcoming Weddings</h6>
-     
+      <h1 className="mb-5 text-center">WEDDING</h1>
+
         <Row xs={1} sm={2}   lg={3} className=" g-4">
           <WeddingCard />
         </Row>

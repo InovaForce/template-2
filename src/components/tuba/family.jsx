@@ -9,9 +9,9 @@ const Family = () => {
       <Container>
         <Row >
           <Col lg={12}>
-            <div className="family-title">
+            <div className="family-title mb-5">
               <h2>FAMILY</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            
             </div>
           </Col>
         </Row>
@@ -21,12 +21,12 @@ const Family = () => {
               <div className="family-img">
                 <Image className="img-fluid" 
 				src="/images/family-01.jpg" 
-				alt="Mr. Mehmet Genç" 
+				alt="Mr." 
 				width={400} 
 				height={300} />
               </div>
               <div className="family-info">
-                <h4>Mr. Mehmet Genç</h4>
+                <h4>Mr. Brown</h4>
                 <p>Bride's Father</p>
               </div>
             </div>
@@ -36,12 +36,12 @@ const Family = () => {
               <div className="family-img">
                 <Image className="img-fluid" 
 				src="/images/family-02.jpg" 
-				alt="Mrs. Genç" 
+				alt="Mrs." 
 				width={400} 
 				height={300} />
               </div>
               <div className="family-info">
-                <h4>Mrs. Genç</h4>
+                <h4>Mrs. Brown</h4>
                 <p>Bride's Mother</p>
               </div>
             </div>
@@ -51,12 +51,12 @@ const Family = () => {
               <div className="family-img">
                 <Image className="img-fluid" 
 				src="/images/family-03.jpg" 
-				alt="Mr. Cahit Ata" 
+				alt="Mr." 
 				width={400} 
 				height={300} />
               </div>
               <div className="family-info">
-                <h4>Mr. Cahit Ata</h4>
+                <h4>Mr. Brown</h4>
                 <p>Bride's Brother</p>
               </div>
             </div>
@@ -66,12 +66,12 @@ const Family = () => {
               <div className="family-img">
                 <Image className="img-fluid" 
 				src="/images/family-01.jpg" 
-				alt="Mr. Demir" 
+				alt="Mr." 
 				width={400} 
 				height={300} />
               </div>
               <div className="family-info">
-                <h4>Mr. Demir</h4>
+                <h4>Mr. Smith</h4>
                 <p>Groom's Father</p>
               </div>
             </div>
@@ -81,12 +81,12 @@ const Family = () => {
               <div className="family-img">
                 <Image className="img-fluid" 
 				src="/images/family-02.jpg" 
-				alt="Mrs. Şule Demir" 
+				alt="Mrs. Smith" 
 				width={400} 
 				height={300} />
               </div>
               <div className="family-info">
-                <h4>Mrs. Şule Demir</h4>
+                <h4>Mrs. Smith</h4>
                 <p>Groom's Mother</p>
               </div>
             </div>
@@ -96,12 +96,12 @@ const Family = () => {
               <div className="family-img">
                 <Image className="img-fluid" 
 				src="/images/family-04.jpg" 
-				alt="Mrs. Eda Sarıkaya" 
+				alt="Mrs." 
 				width={400} 
 				height={300} />
               </div>
               <div className="family-info">
-                <h4>Mrs. Eda Sarıkaya</h4>
+                <h4>Mrs. Smith</h4>
                 <p>Groom's Sister</p>
               </div>
             </div>
