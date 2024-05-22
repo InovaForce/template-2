@@ -10,7 +10,7 @@ const Wedding = () => {
       <h1 className=" text-center">WEDDING</h1>
       <h6 className="text-dark text-center wedding-our mb-5">Our upcoming Weddings</h6>
      
-        <Row  sm={1} md={2} lg={3} className="g-4">
+        <Row xs={1} sm={2}   lg={3} className=" g-4">
           <WeddingCard />
         </Row>
       </Container>

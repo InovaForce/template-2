@@ -7,6 +7,7 @@
     background: v.$color1;
     padding: 50px 0;
     font-family: v.$font2;
+    margin-bottom: 0 !important;
 
     li {
         list-style-type: none;
@@ -137,7 +138,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
     .timeline ul li {
         margin-left: 20px;
     }
@@ -146,7 +147,7 @@
         width: calc(100vw - 91px);
 
         .paraf {
-            transform: translate(215%, 250%);
+            transform: translate(150%, 250%);
         }
     }
 
@@ -160,6 +161,33 @@
         border-color: transparent v.$color2 transparent transparent;
     }
 }
+
+
+
+@media screen and (max-width: 490px) {
+    .timeline ul li {
+        margin-left: 20px;
+    }
+
+    .timeline ul li div {
+        width: calc(100vw - 91px);
+
+        .paraf {
+            transform: translate(71%, 250%);
+        }
+    }
+
+    .timeline ul li:nth-child(even) div {
+        left: 45px;
+    }
+
+    .timeline ul li:nth-child(even) div::before {
+        left: -15px;
+        border-width: 8px 16px 8px 0;
+        border-color: transparent v.$color2 transparent transparent;
+    }
+}
+
 
 
 /* EXTRA/CLIP PATH STYLES
