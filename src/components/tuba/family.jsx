@@ -27,7 +27,7 @@ const Family = () => {
               </div>
               <div className="family-info">
                 <h4>Mr. Brown</h4>
-                <p>Bride's Father</p>
+                <p>Bride&apos;s Father</p>
               </div>
             </div>
           </Col>
@@ -42,7 +42,7 @@ const Family = () => {
               </div>
               <div className="family-info">
                 <h4>Mrs. Brown</h4>
-                <p>Bride's Mother</p>
+                <p>Bride&apos;s Mother</p>
               </div>
             </div>
           </Col>
@@ -57,7 +57,7 @@ const Family = () => {
               </div>
               <div className="family-info">
                 <h4>Mr. Brown</h4>
-                <p>Bride's Brother</p>
+                <p>Bride&apos;s Brother</p>
               </div>
             </div>
           </Col>
@@ -72,7 +72,7 @@ const Family = () => {
               </div>
               <div className="family-info">
                 <h4>Mr. Smith</h4>
-                <p>Groom's Father</p>
+                <p>Groom&apos;s Father</p>
               </div>
             </div>
           </Col>
@@ -87,7 +87,7 @@ const Family = () => {
               </div>
               <div className="family-info">
                 <h4>Mrs. Smith</h4>
-                <p>Groom's Mother</p>
+                <p>Groom&apos;s Mother</p>
               </div>
             </div>
           </Col>
@@ -102,7 +102,7 @@ const Family = () => {
               </div>
               <div className="family-info">
                 <h4>Mrs. Smith</h4>
-                <p>Groom's Sister</p>
+                <p>Groom&apos;s Sister</p>
               </div>
             </div>
           </Col>
