@@ -1,7 +1,7 @@
 
 import React, { useEffect, useRef } from "react";
 import './timeline-component.scss'
-import data from '../../data/players.json'
+import data from '../../data/story.json'
 import InsideLi from "./inside-li";
 
 const TimelineComponent = () => {
