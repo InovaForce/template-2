@@ -25,7 +25,7 @@ position: absolute;
   border-radius: 30px;
   overflow: hidden;
   font-family: v.$font2;
-  margin-top: 80px;
+  margin-top: 70px;
 
   .counter-title {
     position: absolute;
@@ -65,4 +65,40 @@ position: absolute;
 
     }
   }
+}
+
+
+@media (max-width:574px) {
+  .counter{
+    height: 25%;
+    width: 80%;
+  }
+
+  .day,
+  .hour,
+  .minute,
+  .second {
+    height: 40px !important;
+    width: 70px !important;
+      font-size: 15px;
+  }
+
+  
+}
+
+@media (max-width: 409px) {
+  .adress{
+    margin-top: 110px;
+  }
+
+ 
+  
+}
+
+@media (max-width:369px) {
+  .adress{
+  font-size: 10px;
+ 
+  }
+
 }
