@@ -30,9 +30,10 @@ const MySwiper = ({ data, setShow, initialSlideIndex }) => {
       style={{
         position: "fixed",
         zIndex: 99,
-        height: "50vh",
-        width: "50vw",
+        height: "70vh",
+        width: "70vw",
         margin: "auto",
+        objectFit: "cover",
       }}
     >
       <Card>
