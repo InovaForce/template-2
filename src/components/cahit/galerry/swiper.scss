@@ -48,3 +48,11 @@
     }
     
 }
+
+@media (max-width: 800px) {
+    .mySwiper{
+        width: 95vw !important;
+        height: 60vh !important;
+        object-fit: cover !important;
+    }
+}
