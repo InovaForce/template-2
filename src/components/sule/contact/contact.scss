@@ -4,7 +4,7 @@
 .contact-div{
 
     background-color: v.$color7;
-    padding: 90px 0px;
+    padding: 90px 0px 110px 0px;
 
 .container.contact-box{
     display: flex;
@@ -17,16 +17,27 @@
    
     h1{ display: flex;
         margin-top: 30px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         font-family: v.$font1!important;
         color: v.$color5 !important;
     }
     .form{
         width: 85%;
+    
+        .form-btn-primary {
+            background-color: v.$color2;
+            color: v.$color9 !important;
+            border-color: v.$color3 !important; 
+            
+            &:hover {
+              border-color: v.$color9 !important;
+            }
+          }
       
     }
     .input-text{
      background: v.$color8 !important;
+     border : v.$color3 1px solid;
      
     }
 }

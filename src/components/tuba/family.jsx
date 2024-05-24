@@ -20,7 +20,7 @@ const Family = () => {
             <div className="family-image">
               <div className="family-img">
                 <Image className="img-fluid" 
-				src="/images/family-01.jpg" 
+				src="/images/gelin-baba.jpg" 
 				alt="Mr." 
 				width={400} 
 				height={300} />
@@ -35,7 +35,7 @@ const Family = () => {
             <div className="family-image">
               <div className="family-img">
                 <Image className="img-fluid" 
-				src="/images/family-02.jpg" 
+				src="/images/gelin-anne2.jpg" 
 				alt="Mrs." 
 				width={400} 
 				height={300} />

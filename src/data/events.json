@@ -3,7 +3,7 @@
         "id": 1,
         "image": "events-01.jpg",
         "title":"2 June 2024 Engagement",
-        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut tellus eu turpis facilisis",
+        "text":"Happy Wedding Hall, Sandyford Rd, Dundrum, Dublin 16",
         "Location": "New York"
 
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "image": "events-02.jpg",
         "title":"3 June 2024 Ceremony",
-        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut tellus eu turpis facilisis",
+        "text":"Happy Wedding Hall, Sandyford Rd, Dundrum, Dublin 16",
         "Location": "Paris"
 
     },
@@ -19,7 +19,7 @@
         "id": 3,
         "image": "events-03.jpg",
         "title":"4 June 2024 Party",
-        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut tellus eu turpis facilisis",
+        "text":"Happy Wedding Hall, Sandyford Rd, Dundrum, Dublin 16",
         "Location": "London"
 
 
