@@ -11,38 +11,38 @@
         "id": 2,
         "image": "images/our-story/gallery-4.jpg",
         "time":2021,
-        "paraf":"El ele"
+        "paraf":"İlk sinema"
     },
     {
         "id": 3,
-        "image": "images/our-story/gallery-5.jpg",
+        "image": "images/our-story/cicek1.jpg",
         "time":2022,
-        "paraf":"Tatil"
+        "paraf":"İlk çiçek"
 
     },
     {
         "id": 4,
-        "image": "images/our-story/couple.jpg",
+        "image": "images/our-story/ilk-yemek.jpg",
         "time":2022,
-        "paraf":"Seyahat"
+        "paraf":"İlk yemek"
     },
     {
         "id": 5,
-        "image": "images/our-story/love.jpg",
+        "image": "images/our-story/ilk-konser.jpg",
         "time":2023,
-        "paraf":"Evlilik teklifi"
+        "paraf":"İlk konser"
     },
     {
         "id": 6,
-        "image": "images/our-story/people.jpg",
+        "image": "images/our-story/relationship.jpg",
         "time":2024,
-        "paraf":"Kampus"
+        "paraf":"Evlilik teklifi"
     },
     {
         "id": 7,
         "image": "images/our-story/balayi.jpg",
         "time":2024,
-        "paraf":"Davet"
+        "paraf":"FOREVER"
     }
 
 ]

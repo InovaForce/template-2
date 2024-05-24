@@ -28,6 +28,7 @@
     top: 10px;
     left: 10px;
     background-color: v.$color4;
+    color: v.$color1;
     font-size: 1.6rem;
     transform: translate(155%, 250%);
     padding: 10px;
@@ -36,7 +37,7 @@
 
 }
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
     
     .paraf{
     //    transform: translate(100px, 250%);
@@ -44,4 +45,4 @@
 
     }
 
-}
+} */
