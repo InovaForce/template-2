@@ -1,10 +1,11 @@
+
 @use '.../../../../../styles/variables' as v;
 
 
 .contact-div{
 
-    background-color: v.$color7;
     padding: 90px 0px 110px 0px;
+    background-color:v.$color7 !important;
 
 .container.contact-box{
     display: flex;
@@ -13,6 +14,7 @@
     justify-content: center;
     align-items: center;
     font-family: v.$font2;
+    background-color:none !important;
 
    
     h1{ display: flex;
@@ -24,14 +26,17 @@
     .form{
         width: 85%;
     
-        .form-btn-primary {
+        .form-btn-primary{
+            width: 100%;
             background-color: v.$color2;
-            color: v.$color9 !important;
-            border-color: v.$color3 !important; 
-            
-            &:hover {
-              border-color: v.$color9 !important;
-            }
+            margin-top: 10px;
+            color: v.$color9 !important; ;
+            border-color: v.$color3;
+            cursor: pointer !important;
+        
+        &:hover {
+          border-color: v.$color9 !important;
+        }
           }
       
     }
@@ -39,16 +44,6 @@
      background: v.$color8 !important;
      border : v.$color3 1px solid;
      
-    }
-}
-.btn-primary {
-    width: 100%;
-    background-color: v.$color8!important;
-    color:v.$color9;
-    border: v.$color3 1px solid; ;  
-    &:hover {
-    border-color: v.$color5;
-   
-    }
+    }    
 }
 }

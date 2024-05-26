@@ -1,0 +1,57 @@
+@use '@/styles/variables' as v;
+
+
+.firm-contact-div{
+
+    background-color: v.$color7;
+    padding: 80px 0px 100px 0px;
+
+.container.firm-contact-box{
+    display: flex;
+    flex-direction:column;    
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: v.$font2;
+
+   
+    h1{ display: flex;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-family: v.$font1!important;
+        color: v.$color5 !important;
+    }
+    .firm-form{
+        width: 85%;
+    
+        .firm-btn-primary {
+            background-color: v.$color2;
+            color: v.$color9 !important;
+            border-color: v.$color3 !important; 
+            
+            &:hover {
+              border-color: v.$color9 !important;
+            }
+          }
+      
+    }
+    .input-text{
+     background: v.$color8 !important;
+     border : v.$color3 1px solid;
+     
+    }
+    .firm-btn-primary {
+        background-color: v.$color2;
+        width: 100%;
+        margin-top: 10px;
+        color: v.$color9;
+        border-color: v.$color3;
+        cursor: pointer;
+        
+        &:hover {
+          border-color: v.$color9;
+        }
+    }
+  }
+
+}

@@ -1,9 +1,9 @@
 "use client";
 import React, { useEffect, useState } from 'react';
 import { Nav } from 'react-bootstrap';
-import contactData from '../../../../data/contact-data.json';
+import contactData from '@/data/contact-data.json';
 
-const ModalContact = () => {
+const FirmContact = () => {
   const [contact, setContact] = useState({});
 
   useEffect(() => {
@@ -13,23 +13,24 @@ const ModalContact = () => {
   }, []);
 
   return (
-    <Nav>
-      {contact.phone1 && (
-        <Nav.Link href={`tel:${contact.phone1}`}>{contact.phone1}</Nav.Link>
-      )}
-      {contact.phone2 && (
-        <Nav.Link href={`tel:${contact.phone2}`}>{contact.phone2}</Nav.Link>
-      )}
-      {contact.email && (
-        <Nav.Link href={`mailto:${contact.email}`}>{contact.email}</Nav.Link>
-      )}
-      {contact.mapURL && contact.address && (
-        <Nav.Link href={contact.mapURL} target="_blank">
-          {contact.address}
-        </Nav.Link>
-      )}
-    </Nav>
+    <div>
+      <Nav>
+        {contact.phone1 && (
+          <Nav.Link href={`tel:${contact.phone1}`}>{contact.phone1}</Nav.Link>
+        )}
+        {contact.phone2 && (
+          <Nav.Link href={`tel:${contact.phone2}`}>{contact.phone2}</Nav.Link>
+        )}
+        {contact.email && (
+          <Nav.Link href={`mailto:${contact.email}`}>{contact.email}</Nav.Link>
+        )}
+        {contact.mapURL && contact.address && (
+          <Nav.Link href={contact.mapURL} target="_blank">
+            {contact.address}
+          </Nav.Link>
+        )}
+      </Nav>
+    </div>
   );
 };
-
-export default ModalContact;
+export default FirmContact;
