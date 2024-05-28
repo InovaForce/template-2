@@ -127,6 +127,7 @@
     .timeline ul li div {
         width: 250px;
 
+
         .paraf {
             transform: translate(50%, 250%);
         }
@@ -138,7 +139,7 @@
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
     .timeline ul li {
         margin-left: 20px;
     }
