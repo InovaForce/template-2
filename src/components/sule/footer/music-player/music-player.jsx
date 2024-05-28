@@ -32,7 +32,7 @@ const MusicPlayer = () => {
     return () => {
       window.removeEventListener('click', playAudio);
     };
-  }, [isPlaying]);
+  }, []);
 
   const handlePlayPauseButton = () => {
     if (audioRef.current) {
