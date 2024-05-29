@@ -55,7 +55,7 @@ const Contact = () => {
     <div className="contact-div">
 
       <Container className="contact-box">
-        <h1>Contact With Us</h1>
+        <h1 className="d-flex flex-wrap justify-content-center align-items-center text-center">Please let us know if you will be attending</h1>
         {error && <p>{error}</p>}
         <Form className="form ">
           <Row>
