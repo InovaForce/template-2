@@ -38,7 +38,7 @@ position: absolute;
     justify-content: center;
     color: v.$color9;
     font-weight: 700;
-    font-size: large;
+    font-size: 25px;
 
   }
 
@@ -83,6 +83,14 @@ position: absolute;
       font-size: 15px;
   }
 
+  .counter-title {
+
+    font-size: 21px !important;
+  
+  }
+
+}
+
   @media (max-width:451px) {
 
     .counter-all{
@@ -100,10 +108,15 @@ position: absolute;
         margin:5px;
       
     }
+
+    .counter-title {
+
+      font-size: 20px !important;
+    
+    }
   
     }
   
-}
 
 @media (max-width: 409px) {
 
@@ -122,6 +135,12 @@ position: absolute;
     margin-top: 110px;
   }
 
+  .counter-title {
+
+    font-size: 20px !important;
+  
+  }
+
  
   
 }
@@ -133,6 +152,12 @@ position: absolute;
   .adress{
   font-size: 10px;
  
+  }
+
+  .counter-title {
+
+    font-size: 18px !important;
+  
   }
 
 }
@@ -152,6 +177,13 @@ position: absolute;
   }
 .adress{
   margin-top: 110px;
+}
+
+
+.counter-title {
+
+  font-size: 15px !important;
+
 }
 
 

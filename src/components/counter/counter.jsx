@@ -60,7 +60,7 @@ const Counter = () => {
 
   return (
     <div className='counter'>
-      <div className='counter-title'>Time to Wedding</div>
+      <div className='counter-title'>We are getting married</div>
       <div></div>
       <div className='counter-all'>
         {timeLeft.days && <span className='day'>{timeLeft.days} gün </span>}
