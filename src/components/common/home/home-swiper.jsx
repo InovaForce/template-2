@@ -40,7 +40,7 @@ const HomeSwiper = () => {
        
           <SwiperSlide className="slide-carousel">
             <Image
-              src="/images/wedding-4.jpg"
+              src="/images/wedding-11.jpg"
               width={1800}
               height={800}
               alt="Wedding 4"
