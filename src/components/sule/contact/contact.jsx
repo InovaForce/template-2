@@ -162,7 +162,7 @@ const Contact = () => {
             type="submit"
             disabled={
               !values.name ||
-              !values.email ||
+              /* !values.email || */
               !values.subject ||
               !values.message
             }

@@ -18,7 +18,7 @@ const HomeNavbar = () => {
            
             <Nav.Link href="#wedding">Gallery</Nav.Link>
             <Nav.Link href="#events">Events</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="#rcvp">Rcvp</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -28,7 +28,7 @@ const Home = () => {
       <section id="events">
         <Event />
       </section>
-      <section id="contact">
+      <section id="rcvp">
         <Contact />
       </section>
       
