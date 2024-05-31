@@ -21,13 +21,7 @@ const Home = () => {
         <Timeline />
       </section>
 
-      <section id="family">
-        <Family />
-      </section>
 
-      <section id="gallery">
-        <Gallery />
-      </section>
       <section id="wedding">
         <Wedding />
       </section>

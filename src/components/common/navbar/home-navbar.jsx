@@ -14,9 +14,9 @@ const HomeNavbar = () => {
           <Nav className="mx-auto home-nav">
             <Nav.Link href="#about">About Us</Nav.Link>
             <Nav.Link href="#timeline">Story</Nav.Link>
-            <Nav.Link href="#family">Family</Nav.Link>
-            <Nav.Link href="#gallery">Gallery</Nav.Link>
-            <Nav.Link href="#wedding">Wedding</Nav.Link>
+      
+           
+            <Nav.Link href="#wedding">Gallery</Nav.Link>
             <Nav.Link href="#events">Events</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>

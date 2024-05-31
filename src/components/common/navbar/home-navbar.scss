@@ -2,7 +2,7 @@
 
 .home-navbar,
 .navbar {
-  background-color: v.$color3;
+  background-color: v.$color10;
   z-index: 999;
   --bs-navbar-padding-y: 0 !important;
   display: flex;
@@ -22,7 +22,7 @@
     }
 
     .navbar-title {
-      color: v.$color5;
+      color: v.$color1;
       font-size: 22px;
     }
   }
@@ -31,13 +31,14 @@
     justify-content: space-between;
 
     > .nav-link {
-      color: v.$color5;
+      color: v.$color1;
       padding: 20px !important;
       font-size: 18px;
 
 
       &:hover {
         background-color: v.$color2;
+        color: v.$color9;
       }
     }
   }
