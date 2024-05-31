@@ -16,8 +16,9 @@
                     height: 100%;
                     width: 100%;
                     object-fit: cover;
-                    filter: brightness(80%);
-                }
+                    filter: brightness(90%);
+                    -webkit-filter: brightness(90%);
+}
            }
         }
     }

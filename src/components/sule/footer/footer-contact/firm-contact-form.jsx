@@ -89,7 +89,7 @@ const FirmContactForm = () => {
                 />
                 <Form.Control.Feedback type="invalid">
                   {touched.email && !values.email && "Email is required"}
-                </Form.Control.Feedback>
+                </Form.Control.Feedback> 
               </Form.Group>
             </Col>
             <Col xs={12}>
@@ -117,7 +117,6 @@ const FirmContactForm = () => {
             disabled={
               !values.name ||
               !values.email ||
-              !values.subject ||
               !values.message
             }
             onClick={onSubmit}
