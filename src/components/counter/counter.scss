@@ -36,7 +36,7 @@ position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: v.$color9;
+    color: v.$color1;
     font-weight: 700;
     font-size: 25px;
 
@@ -52,8 +52,8 @@ position: absolute;
     .hour,
     .minute,
     .second {
-      color: v.$color5;
-      background-color: #a7ffe5c1;
+      color: v.$color10;
+      background-color: v.$color1;
       border-radius: 10px;
       height: 50px;
       width: 100px;
