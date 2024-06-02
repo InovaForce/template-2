@@ -3,19 +3,19 @@
       "id": 1,
       "image": "/images/layover/swissotel_buyuk_efes.jpg",
       "description": "Swissôtel Büyük Efes İzmir",
-      "location": "https://www.google.com/maps?q=location1"
+      "location": "https://maps.app.goo.gl/kDEfLrJTq3tuB33p6"
     },
     {
       "id": 2,
       "image": "/images/layover/radisson_cesme.jpg",
       "description": "Radisson Blu Resort & Spa, Cesme",
-      "location": "https://www.google.com/maps?q=location2"
+      "location": "https://maps.app.goo.gl/Q6dkire2brgWptPk7"
     },
     {
       "id": 3,
       "image": "/images/layover/portofino_urla.jpg",
       "description": "Portofino Urla Boutique Hotel",
-      "location": "https://www.google.com/maps?q=location3"
+      "location": "https://maps.app.goo.gl/j34z8b8bdj5iyqqRA"
     }
   
   ]

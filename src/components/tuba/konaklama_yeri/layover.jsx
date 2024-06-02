@@ -1,10 +1,10 @@
 import React from 'react'
 import CardComp from "./cardComp";
-import { CardFooter, Container, Row } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import Spacer from "../../cahit/galerry/spacer";
-import "./konaklama_yeri.scss";
+import "./layover.scss";
 
-const Konaklama = () => {
+const Layover = () => {
   return (
     <div className='layover'> 
         <Spacer height="40px"/>
@@ -23,4 +23,4 @@ const Konaklama = () => {
   )
 }
 
-export default Konaklama
+export default Layover
