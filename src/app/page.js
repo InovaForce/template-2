@@ -9,6 +9,7 @@ import Event from "@/components/sule/events/event";
 import Contact from "@/components/sule/contact/contact";
 import AboutUs from "@/components/tuba/about";
 import UpButton from "@/components/mehmet/up-button";
+import Konaklama from "@/components/tuba/konaklama_yeri/konaklama_yeri";
 
 const Home = () => {
   return (
@@ -28,9 +29,14 @@ const Home = () => {
       <section id="events">
         <Event />
       </section>
+      <section id="konaklama">
+          <Konaklama/>
+        </section>
       <section id="rcvp">
         <Contact />
-      </section>
+        </section>
+
+    
       
     </>
   );
