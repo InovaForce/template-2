@@ -22,7 +22,7 @@ const EventCard = (props) => {
       </div>      
         <Card.Title>{title}</Card.Title>
         <Card.Text>{text}</Card.Text>
-        <Button variant="primary" as="a" href={Location}>See Location</Button>
+        <Button variant="primary" as="a" href={Location}>Konum Bilgisi</Button>
       </Card.Body>
       </Card>
     </Container>

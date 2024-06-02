@@ -54,7 +54,7 @@ const FirmContactForm = () => {
     <div className="firm-contact-div">
 
       <Container className="firm-contact-box">
-        <h1>Contact With InovaForce</h1>
+        <h1>Bizimle İletişime Geçin</h1>
         {error && <p>{error}</p>}
         <Form className="firm-form ">
           <Row>
@@ -64,7 +64,7 @@ const FirmContactForm = () => {
                   className="my-2 input-text"
                   name="name"
                   type="text"
-                  placeholder="Enter your full name"
+                  placeholder="Adınızı ve soyadınızı giriniz."
                   value={values.name}
                   onChange={handleChange}
                   onBlur={onBlur}
@@ -81,7 +81,7 @@ const FirmContactForm = () => {
                   className="my-2 input-text"
                   name="email"
                   type="email"
-                  placeholder="Enter your email address"
+                  placeholder="Mail adresinizi giriniz."
                   value={values.email}
                   onChange={handleChange}
                   onBlur={onBlur}
@@ -97,7 +97,7 @@ const FirmContactForm = () => {
                 <Form.Control
                   className="my-2 input-text"
                   as="textarea"
-                  placeholder="Your message"
+                  placeholder="Mesajınız"
                   name="message"
                   rows={4}
                   value={values.message}
@@ -121,7 +121,7 @@ const FirmContactForm = () => {
             }
             onClick={onSubmit}
           >
-            Send Message
+            Gönder
           </Button>
         </Form>
       </Container>

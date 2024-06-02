@@ -13,7 +13,7 @@ const Gallery = () => {
     <div  className="gallery">
 
       <Spacer height="40px"/>
-      <h1 className=" text-center">GALLERY</h1>
+      <h1 className=" text-center">Galeri</h1>
 
       <Container className="mt-5">
         <Row xs={1}  md={2} lg={3} xxl={4} className="g-4 ">

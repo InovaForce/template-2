@@ -2,28 +2,28 @@
   {
     "id": 1,
     "image": "/images/wedding/wedding1.jpg",
-    "title": "Bachelor Party",
-    "time": "June 14 2022 07:30pm",
+    "title": "Düğüne hazırlık",
+    "time": "8 Ağustos 2024 ",
     "parag": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur, deleniti eaque excepturi."
   },
   {
     "id": 2,
     "image": "/images/wedding/wedding2.jpg",    
-    "title": "Bachelor Party",
-    "time": "June 14 2022 07:30pm",
+    "title": "Provaları beklerken",
+    "time": "8 Ağustos 2024 ",
     "parag": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur, deleniti eaque excepturi."
   },
   {
     "id": 3,
     "image": "/images/wedding/wedding-day.jpg",     
-     "title": "Bachelor Party",
-    "time": "June 14 2022 07:30pm",
+     "title": "Erken gelen kutlama",
+    "time": "8 Ağustos 2024 ",
     "parag": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur, deleniti eaque excepturi."
   }, {
     "id": 4,
     "image": "/images/wedding/party1.jpg",       
-      "title": "Bachelor Party",
-    "time": "June 14 2022 07:30pm",
+      "title": "Hep böyle mutlu olalım",
+    "time": "8 Ağustos 2024 ",
     "parag": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur, deleniti eaque excepturi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur, deleniti eaque excepturi."
   }
 ]

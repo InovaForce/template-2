@@ -13,7 +13,7 @@ const Event = () => {
     <div className="event-box">
       <Row className="col-12">
         <div className="title-box">
-          <h1>Events</h1>
+          <h1>Etkinlikler</h1>
         </div>
       </Row>
       <Row xs={1}  md={2} lg={3} className="g-2">
