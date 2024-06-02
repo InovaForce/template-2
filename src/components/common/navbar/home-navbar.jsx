@@ -12,13 +12,13 @@ const HomeNavbar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto home-nav">
-            <Nav.Link href="#about">About Us</Nav.Link>
-            <Nav.Link href="#timeline">Story</Nav.Link>
+            <Nav.Link href="#about">Hakkımızda</Nav.Link>
+            <Nav.Link href="#timeline">Hikayemiz</Nav.Link>
       
            
-            <Nav.Link href="#wedding">Gallery</Nav.Link>
-            <Nav.Link href="#events">Events</Nav.Link>
-            <Nav.Link href="#rcvp">Rcvp</Nav.Link>
+            <Nav.Link href="#wedding">Galeri</Nav.Link>
+            <Nav.Link href="#events">Etkinlik</Nav.Link>
+            <Nav.Link href="#rcvp">Lcv</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

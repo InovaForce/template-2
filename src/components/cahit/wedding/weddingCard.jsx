@@ -35,7 +35,7 @@ const WeddingCard = () => {
               <Image
                 src={item.image}
                 alt={item.title}
-                layout="fill"
+                fill
                 objectFit="cover"
               />
             </div>

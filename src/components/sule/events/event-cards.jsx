@@ -5,7 +5,7 @@ import { Button , Card, Container} from "react-bootstrap";
 import "./event-card.scss";
 
 const EventCard = (props) => {
-    const { image, title, text, location } = props;
+    const { image, title, text, Location } = props;
   return (
     
     <Container className="event-container" >
@@ -22,7 +22,7 @@ const EventCard = (props) => {
       </div>      
         <Card.Title>{title}</Card.Title>
         <Card.Text>{text}</Card.Text>
-        <Button variant="primary" as="a" href={location}>See Location</Button>
+        <Button variant="primary" as="a" href={Location}>See Location</Button>
       </Card.Body>
       </Card>
     </Container>
