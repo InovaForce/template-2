@@ -1,0 +1,19 @@
+@use "../../../styles/variables" as v;
+
+.layover {
+  background-color: v.$color7;
+  font-family: v.$font1;
+  padding-top: 40px;
+
+  > h6 {
+    font-family: v.$font2;
+  }
+  h2 {
+    color: v.$color5;
+  }
+  .layover_name{
+    color: v.$color5;
+    font-size: 15px;
+    text-align: center;
+  }
+}

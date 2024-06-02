@@ -1,0 +1,56 @@
+@use "../../../styles/variables" as v;
+
+.img-container {
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: v.$color1 !important;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: background-color 0.5s ease;
+
+}
+
+.img-container {
+  transition: all 0.3s ease;
+
+
+  &:hover .overlay {
+    background-color: rgba(255, 95, 95, 0.2);
+  }
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+}
+  .layover_card-details {
+    margin-top: 20px; 
+
+    .layover_description {
+      margin: 0;
+      font-size: 20px;
+      color:v.$color10;
+    }
+  
+    .layover_location {
+      display: block;
+      margin-top: 5px;
+      color:v.$color5;
+      text-decoration: none;
+      font-size: 20px;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
