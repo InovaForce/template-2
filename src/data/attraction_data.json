@@ -1,0 +1,45 @@
+
+[
+  {
+    "id": 1,
+    "src": "/images/attractions/izmir-saat-kulesi.jpg",
+    "alt": "saat_kulesi",
+    "name": "Saat Kulesi",
+    "role":"Tarihi Asansör"
+    
+  },
+  {
+    "id": 2,
+    "src": "/images/attractions/kizlaragasihan.jpeg",
+    "alt": "kizlaragasihan",
+    "name": "Kızlarağası Han"
+  },
+  {
+    "id": 3,
+    "src": "/images/attractions/kordon.jpg",
+    "alt": "kordon",
+    "name": "Kordon"
+    
+  },
+  {
+    "id": 4,
+    "src": "/images/attractions/efes-antik-kenti.jpg",
+    "alt": "efes",
+    "name": "Efes Antik Kent"
+    
+  },
+  {
+    "id": 5,
+    "src": "/images/attractions/izmir-tarihi-asansor.jpg",
+    "alt": "tarihi_asansor",
+    "name": "Tarihi Asasnsör"
+   
+  },
+  {
+    "id": 6,
+    "src": "/images/attractions/sigacik.jpg",
+    "alt": "sigacik",
+    "name": "Sığacık"
+   
+  }
+]
