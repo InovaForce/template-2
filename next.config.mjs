@@ -1,8 +1,14 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+// next.config.mjs
+export default {
   images: {
-    domains: ["picsum.photos","images.pexels.com"],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'google.com',
+        port: '',
+        pathname: '**',
+      },
+      
+    ],
   },
-};
-
-export default nextConfig;
+}

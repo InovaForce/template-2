@@ -2,25 +2,27 @@
     {
         "id": 1,
         "image": "events-01.jpg",
-        "title":"2 June 2024 Engagement",
-        "text":"Happy Wedding Hall, Sandyford Rd, Dundrum, Dublin 16",
-        "Location": "New York"
-
+        "title":"7 Eylül 2024 Saat:19:00 Kına Gecesi",
+        "text":"Kaya İzmir Thermal & Convention - Ilıca, Zeytin Sk. No:112, 35320 Narlıdere/Balçova/İzmir",
+        "Location": "https://www.google.com/maps/place/Kaya+%C4%B0zmir+Thermal+%26+Convention/@38.3865532,27.0289916,17z/data=!3m1!4b1!4m10!3m9!1s0x14bbdcfa1a34765b:0xab40cc4c4b6e0e3c!5m3!1s2024-06-02!4m1!1i2!8m2!3d38.3865532!4d27.0315665!16s%2Fg%2F1tt4lsn2?entry=ttu"
+        
     },
     {
         "id": 2,
         "image": "events-02.jpg",
-        "title":"3 June 2024 Ceremony",
-        "text":"Happy Wedding Hall, Sandyford Rd, Dundrum, Dublin 16",
-        "Location": "Paris"
+        "title":"8 Eylül 2024  Saat:16:00 Nikah Töreni",
+        "text":"Wyndham Grand - İnciraltı Cd. No:67, 35340 Balçova/Izmir",
+        "Location": "https://www.google.com/maps/place/Wyndham+Grand+Izmir+%C3%96zdilek/@38.4115451,27.0294915,17z/data=!3m1!4b1!4m10!3m9!1s0x14bbdc87612f2533:0xd927c573e271f9ee!5m3!1s2024-06-02!4m1!1i2!8m2!3d38.4115451!4d27.0320664!16s%2Fm%2F051wmf9?entry=ttu"
+        
 
     },
     {
         "id": 3,
         "image": "events-03.jpg",
-        "title":"4 June 2024 Party",
-        "text":"Happy Wedding Hall, Sandyford Rd, Dundrum, Dublin 16",
-        "Location": "London"
+        "title":"8 Eylül 2024  Saat:18:00 Yemek",
+        "text":"Wyndham Grand - İnciraltı Cd. No:67, 35340 Balçova/Izmir",
+        "Location": "https://www.google.com/maps/place/Wyndham+Grand+Izmir+%C3%96zdilek/@38.4115451,27.0294915,17z/data=!3m1!4b1!4m10!3m9!1s0x14bbdc87612f2533:0xd927c573e271f9ee!5m3!1s2024-06-02!4m1!1i2!8m2!3d38.4115451!4d27.0320664!16s%2Fm%2F051wmf9?entry=ttu"
+        
 
 
     }

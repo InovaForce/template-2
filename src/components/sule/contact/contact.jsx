@@ -41,7 +41,7 @@ const Contact = () => {
       await sendContactForm(values);
       setTouched({});
       setState(initState);
-      alert("Your message has been sent successfully");
+      alert("Mesajınız başarılı bir şekilde gönderildi.");
       
     } catch (error) {
       setState((prev) => ({
@@ -55,7 +55,7 @@ const Contact = () => {
     <div className="contact-div">
 
       <Container className="contact-box">
-        <h1 className="d-flex flex-wrap justify-content-center align-items-center text-center">Please let us know if you will be attending</h1>
+        <h1 className="d-flex flex-wrap justify-content-center align-items-center text-center">Katılım durumunuzu bildirmenizi rica ederiz.</h1>
         {error && <p>{error}</p>}
         <Form className="form ">
           <Row>
@@ -103,7 +103,7 @@ const Contact = () => {
                   onBlur={onBlur}
                   isInvalid={touched.guests && !values.guests}
                 >
-                  <option value="">Number Of Guest</option>
+                  <option value="">Misafir sayısı</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
@@ -128,10 +128,11 @@ const Contact = () => {
                   isInvalid={touched.subject && !values.subject}
                 >
                   <option value="">Subject</option>
-                  <option value="I am attending">I am attending</option>
-                  <option value="All events">All events</option>
-                  <option value="Wedding Ceremony">Wedding Ceremony</option>
-                  <option value="Reception Party">Reception Party</option>
+                  <option value="I am attending">Katılacağım</option>
+                  <option value="All events">Hepsi</option>
+                  <option value="Henna night">Kına Gesesi</option>
+                  <option value="Wedding ceremony">Nikah Töreni</option>
+                  <option value="Wedding dinner">Düğün Yemeği</option>
                 </Form.Select>
                 <Form.Control.Feedback type="invalid">
                   {touched.subject && !values.subject && "Subject is required"}
