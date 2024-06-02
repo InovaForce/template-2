@@ -41,6 +41,9 @@
     overflow: hidden;
 
   }
+  .image{
+    object-fit: cover;
+  }
   .cardBodyDiv {
     padding: 20px 10px;
     text-align: center;

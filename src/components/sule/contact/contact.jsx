@@ -65,7 +65,7 @@ const Contact = () => {
                   className="my-2 input-text"
                   name="name"
                   type="text"
-                  placeholder="Enter your full name"
+                  placeholder="Adınızı ve soyadınızı giriniz."
                   value={values.name}
                   onChange={handleChange}
                   onBlur={onBlur}
@@ -82,7 +82,7 @@ const Contact = () => {
                   className="my-2 input-text"
                   name="email"
                   type="email"
-                  placeholder="Enter your email address"
+                  placeholder="Mail adresinizi giriniz."
                   value={values.email}
                   onChange={handleChange}
                   onBlur={onBlur}
@@ -144,7 +144,7 @@ const Contact = () => {
                 <Form.Control
                   className="my-2 input-text"
                   as="textarea"
-                  placeholder="Your message"
+                  placeholder="Mesajınızı yazın..."
                   name="message"
                   rows={4}
                   value={values.message}
@@ -169,7 +169,7 @@ const Contact = () => {
             }
             onClick={onSubmit}
           >
-            Send Message
+            Gönder
           </Button>
         </Form>
       </Container>
