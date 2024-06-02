@@ -127,8 +127,7 @@ const Contact = () => {
                   onBlur={onBlur}
                   isInvalid={touched.subject && !values.subject}
                 >
-                  <option value="">Subject</option>
-                  <option value="I am attending">Katılacağım</option>
+                  <option value="">Katılma durumu</option>
                   <option value="All events">Hepsi</option>
                   <option value="Henna night">Kına Gesesi</option>
                   <option value="Wedding ceremony">Nikah Töreni</option>
