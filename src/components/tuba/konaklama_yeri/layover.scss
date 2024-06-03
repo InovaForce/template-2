@@ -1,10 +1,13 @@
 @use "../../../styles/variables" as v;
 
 .layover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: v.$color7;
   font-family: v.$font1;
   padding-top: 40px;
-
+  
   > h6 {
     font-family: v.$font2;
   }
@@ -12,7 +15,7 @@
     color: v.$color5;
   }
   .layover_name{
-    color: v.$color5;
+    color: v.$color9;
     font-size: 15px;
     text-align: center;
   }

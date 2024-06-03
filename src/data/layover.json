@@ -16,6 +16,12 @@
       "image": "/images/layover/portofino_urla.jpg",
       "description": "Portofino Urla Boutique Hotel",
       "location": "https://maps.app.goo.gl/j34z8b8bdj5iyqqRA"
+    },
+    {
+      "id": 4,
+      "image": "/images/layover/KayaTermalOtel.jpg",
+      "description": "Kaya Termal Hotel",
+      "location": "https://www.google.com/maps/place/Kaya+%C4%B0zmir+Thermal+%26+Convention/@38.3865532,27.0289916,17z/data=!3m1!4b1!4m10!3m9!1s0x14bbdcfa1a34765b:0xab40cc4c4b6e0e3c!5m3!1s2024-06-02!4m1!1i2!8m2!3d38.3865532!4d27.0315665!16s%2Fg%2F1tt4lsn2?entry=ttu"
     }
   
   ]
