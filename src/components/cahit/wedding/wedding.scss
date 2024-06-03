@@ -1,18 +1,20 @@
 @use "../../../styles/variables" as v;
  
 .wedding{
-  padding-bottom: 155px !important;
-  h2 {
-    color: v.$color5;
+    height: 100%;
+    padding: 105px 0px 155px 0px;
+    
+  h1 {
+    color: v.$color9;
+    padding: 30px 0px 30px 0px;
   }
 
   font-family: v.$font1;
   background-color: v.$color7;
-  padding-bottom: 50px;
-  padding-top: 80px;
-  
+ 
   .wedding-our{
   font-family: v.$font2;
+  
 
   }
 
@@ -23,6 +25,8 @@
   user-select: none;
   transition: all 0.3s ease;
   font-family: v.$font2;
+  margin-bottom: 30px;
+ 
 
   &:hover {
     .card-image {

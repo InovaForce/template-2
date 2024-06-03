@@ -15,15 +15,10 @@
   },
   {
     "id": 3,
-    "image": "/images/wedding/wedding-day.jpg",     
+    "image": "/images/wedding/party1.jpg",     
      "title": "Erken gelen kutlama",
     "time": "8 Ağustos 2024 ",
     "parag": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur, deleniti eaque excepturi."
-  }, {
-    "id": 4,
-    "image": "/images/wedding/party1.jpg",       
-      "title": "Hep böyle mutlu olalım",
-    "time": "8 Ağustos 2024 ",
-    "parag": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur, deleniti eaque excepturi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur, deleniti eaque excepturi."
   }
+   
 ]

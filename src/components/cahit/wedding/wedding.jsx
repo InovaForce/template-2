@@ -9,7 +9,7 @@ const Wedding = () => {
       <Container >
       <h1 className="mb-5 text-center">Galeri</h1>
 
-        <Row xs={1} sm={2}   lg={3} className=" g-4">
+        <Row sm={1} md={2} lg={3} className=" g-4">
           <WeddingCard />
         </Row>
       </Container>
