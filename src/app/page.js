@@ -9,6 +9,8 @@ import Event from "@/components/sule/events/event";
 import Contact from "@/components/sule/contact/contact";
 import AboutUs from "@/components/tuba/about";
 import UpButton from "@/components/mehmet/up-button";
+import Attractions from "@/components/tuba/gezilecek_yer/attractions";
+import Layover from "@/components/tuba/konaklama_yeri/layover";
 
 const Home = () => {
   return (
@@ -20,17 +22,23 @@ const Home = () => {
       <section id="timeline">
         <Timeline />
       </section>
-
-
       <section id="wedding">
         <Wedding />
       </section>
       <section id="events">
         <Event />
       </section>
+      <section id="layover">
+          <Layover/>
+        </section>
+        <section id="attractions">
+          <Attractions/>
+        </section>
       <section id="rcvp">
         <Contact />
-      </section>
+        </section>
+
+    
       
     </>
   );

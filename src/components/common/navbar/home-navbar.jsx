@@ -18,6 +18,8 @@ const HomeNavbar = () => {
            
             <Nav.Link href="#wedding">Galeri</Nav.Link>
             <Nav.Link href="#events">Etkinlik</Nav.Link>
+            <Nav.Link href="#layover">Konaklama Yerleri</Nav.Link>
+            <Nav.Link href="#attractions">Gezilecek Yerler</Nav.Link>
             <Nav.Link href="#rcvp">Lcv</Nav.Link>
           </Nav>
         </Navbar.Collapse>
